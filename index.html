@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peluang Usaha 2026: Jasa Setup Robot CS AI — Modal Sekali, Cuan Berkali-kali</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{overflow-x:hidden;width:100%}
+body{background:#0A0A0A;color:#F8FAFC;font-family:'Segoe UI',system-ui,sans-serif;overflow-x:hidden;width:100%;max-width:100vw;padding-top:56px;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+section{padding:60px 0}
+/* ========== NAVBAR ========== */
+.navbar{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,10,10,0.95);border-bottom:1px solid rgba(255,255,255,0.05);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.navbar .container{display:flex;align-items:center;justify-content:space-between;padding:12px 20px}
+.navbar img{height:32px}@media(min-width:640px){.navbar img{height:36px}}
+.navbar .nav-cta{background:linear-gradient(90deg,#FFD700,#ffb300);color:#0A0A0A;padding:8px 18px;border-radius:8px;font-weight:700;font-size:13px;transition:transform .2s,box-shadow .2s}
+.navbar .nav-cta:hover{transform:scale(1.05);box-shadow:0 4px 15px rgba(255,215,0,0.3)}
+/* ========== HERO WEALTH ========== */
+.hero{min-height:100vh;display:flex;align-items:center;padding-top:70px;background:linear-gradient(180deg,#0A0A0A 0%,#111111 100%);position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(255,215,0,0.3),transparent)}
+.hero .container{position:relative;z-index:1;text-align:center}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,215,0,0.1);border:1px solid rgba(255,215,0,0.2);color:#FFD700;padding:6px 16px;border-radius:50px;font-size:12px;font-weight:600;margin-bottom:24px;letter-spacing:0.5px}
+.hero h1{font-size:clamp(1.6rem,5vw,2.8rem);font-weight:800;line-height:1.2;margin-bottom:16px}
+.hero h1 .highlight{background:linear-gradient(135deg,#FFD700,#ffb300);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero h1 .highlight-green{background:linear-gradient(135deg,#00FFCC,#00b38f);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{font-size:clamp(0.9rem,2.5vw,1.1rem);color:#94A3B8;max-width:680px;margin:0 auto 28px;line-height:1.7}
+.hero-sub strong{color:#F8FAFC}
+/* Offer Grid — 3 langkah */
+.offer-grid{display:grid;grid-template-columns:1fr;gap:12px;max-width:600px;margin:0 auto 30px;text-align:left}
+.offer-item{display:flex;align-items:flex-start;gap:12px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;transition:all .3s}
+.offer-item:hover{background:rgba(255,255,255,0.05);border-color:rgba(255,255,255,0.1)}
+.offer-item .icon{min-width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;margin-top:1px}
+.offer-item .icon.gold{background:rgba(255,215,0,0.15);color:#FFD700}
+.offer-item .icon.cyan{background:rgba(0,255,204,0.15);color:#00FFCC}
+.offer-item .icon.green{background:rgba(34,197,94,0.15);color:#22C55E}
+.offer-item .text{flex:1}
+.offer-item strong{color:#F8FAFC;font-size:14px;display:block;margin-bottom:2px}
+.offer-item p{color:#64748B;font-size:13px;line-height:1.5}
+/* Logic Cuan */
+.logic-cuan{background:rgba(255,215,0,0.05);border:1px solid rgba(255,215,0,0.15);border-radius:12px;padding:20px 24px;max-width:600px;margin:0 auto 28px;text-align:left}
+.logic-cuan h3{color:#FFD700;font-size:15px;font-weight:700;margin-bottom:12px}
+.logic-cuan .row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.04);font-size:14px}
+.logic-cuan .row:last-child{border-bottom:none}
+.logic-cuan .label{color:#94A3B8}
+.logic-cuan .value{color:#F8FAFC;font-weight:600}
+.logic-cuan .value.gold{color:#FFD700}
+.logic-cuan .value.green{color:#22C55E}
+.logic-cuan .highlight-row{background:rgba(34,197,94,0.08);margin:8px -12px;padding:8px 12px;border-radius:8px;border-bottom:none!important}
+.logic-cuan .highlight-row .label{color:#22C55E;font-weight:600}
+.logic-cuan .highlight-row .value{color:#22C55E;font-weight:800;font-size:15px}
+/* Social Proof Hero */
+.proof-row{display:flex;flex-wrap:wrap;justify-content:center;gap:16px 28px;margin-bottom:24px}
+.proof-row .item{display:flex;align-items:center;gap:5px;font-size:13px;color:#A4B0BE}
+.proof-row .item strong{color:#00FFCC;font-size:15px}
+/* CTA */
+.btn-cta{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(90deg,#FFD700,#ffb300);color:#0A0A0A;padding:16px 36px;border-radius:12px;font-weight:800;font-size:17px;transition:all .3s;box-shadow:0 4px 20px rgba(255,215,0,0.25)}
+.btn-cta:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(255,215,0,0.35)}
+.garansi{margin-top:16px;font-size:12px;color:#64748B;line-height:1.6}
+.garansi strong{color:#00FFCC}
+.garansi .sep{padding:0 8px;color:#333}
+
+/* ========== BUKTI NYATA SECTION ========== */
+.bukti{background:linear-gradient(145deg,#0D0D0D,#111111);position:relative}
+.bukti::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,rgba(0,255,204,0.3),transparent)}
+.bukti .container{text-align:center}
+.bukti h2{font-size:clamp(1.2rem,3.5vw,1.8rem);font-weight:800;margin-bottom:30px}
+.bukti h2 .gold{color:#FFD700}
+.bukti-card{max-width:620px;margin:0 auto;background:rgba(0,255,204,0.03);border:1px solid rgba(0,255,204,0.12);border-radius:16px;padding:30px 24px;position:relative;overflow:hidden}
+.bukti-card::before{content:'💰';position:absolute;top:-10px;right:-10px;font-size:80px;opacity:0.06;transform:rotate(15deg)}
+.bukti-card .badge{display:inline-flex;align-items:center;gap:6px;background:rgba(0,255,204,0.1);border:1px solid rgba(0,255,204,0.2);color:#00FFCC;padding:4px 14px;border-radius:50px;font-size:11px;font-weight:600;margin-bottom:18px}
+.bukti-card .quote{font-size:clamp(1rem,2.5vw,1.15rem);color:#E2E8F0;line-height:1.8;margin-bottom:16px}
+.bukti-card .quote strong{color:#00FFCC}
+.bukti-card .quote .big-number{font-size:clamp(1.3rem,3vw,1.6rem);color:#FFD700;font-weight:800}
+.bukti-card .author{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:20px}
+.bukti-card .author .avatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#FFD700,#ffb300);display:flex;align-items:center;justify-content:center;font-size:18px;color:#0A0A0A;font-weight:700}
+.bukti-card .author .info{text-align:left}
+.bukti-card .author .name{color:#F8FAFC;font-weight:600;font-size:13px}
+.bukti-card .author .role{color:#64748B;font-size:11px}
+.bukti-card .profit-line{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.06)}
+.bukti-card .profit-line .stat{text-align:center}
+.bukti-card .profit-line .stat .num{color:#22C55E;font-size:18px;font-weight:800}
+.bukti-card .profit-line .stat .lbl{color:#64748B;font-size:11px;margin-top:2px}
+.bukti-card .profit-line .stat .num.gold{color:#FFD700}
+.bukti .cta-bukti{margin-top:24px}
+.bukti .cta-bukti .btn-cta{font-size:15px;padding:14px 32px}
+
+/* ========== NERAKA SECTION (existing) ========== */
+.neraka{background:linear-gradient(145deg,#111111,#0A0A0A);position:relative}
+.neraka::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#FF4757,transparent)}
+.neraka h2{text-align:center;font-size:clamp(1.2rem,4vw,1.8rem);font-weight:800;margin-bottom:40px;color:#FF4757}
+.neraka-grid{display:grid;grid-template-columns:1fr;gap:14px;max-width:650px;margin:0 auto 30px}
+.neraka-item{background:rgba(231,76,60,0.05);border:1px solid rgba(231,76,60,0.15);border-radius:12px;padding:16px 20px;display:flex;align-items:flex-start;gap:12px;transition:all .3s}
+.neraka-item:hover{background:rgba(231,76,60,0.1);border-color:rgba(231,76,60,0.3);transform:translateX(4px)}
+.neraka-item .icon-x{color:#FF4757;font-size:18px;font-weight:700;min-width:22px;margin-top:1px}
+.neraka-item strong{color:#F8FAFC;font-size:14px;display:block;margin-bottom:2px}
+.neraka-item p{color:#94A3B8;font-size:13px;line-height:1.5}
+.neraka .cta-wrap{text-align:center;margin-top:10px}
+.neraka-footer{text-align:center;margin-top:24px;color:#94A3B8;font-size:13px;line-height:1.7}
+.neraka-footer strong{color:#00FFCC}
+
+/* ========== KEMERDEKAAN DIGITAL SECTION ========== */
+.merdeka{background:linear-gradient(180deg,#0D0D0D,#0A0A0A);position:relative}
+.merdeka::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,rgba(0,255,204,0.2),rgba(255,215,0,0.2),transparent)}
+.merdeka .container{text-align:center}
+.merdeka h2{font-size:clamp(1.2rem,3.5vw,1.8rem);font-weight:800;margin-bottom:10px}
+.merdeka .sub{color:#94A3B8;font-size:clamp(0.85rem,2vw,1.05rem);max-width:600px;margin:0 auto 30px;line-height:1.7}
+.merdeka .sub strong{color:#00FFCC}
+.merdeka-grid{display:grid;grid-template-columns:1fr;gap:12px;max-width:600px;margin:0 auto 30px;text-align:left}
+.merdeka-item{display:flex;align-items:flex-start;gap:14px;background:rgba(0,255,204,0.02);border:1px solid rgba(0,255,204,0.08);border-radius:12px;padding:16px 18px;transition:all .3s}
+.merdeka-item:hover{border-color:rgba(0,255,204,0.2);background:rgba(0,255,204,0.04)}
+.merdeka-item .icon-emoji{min-width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;margin-top:2px}
+.merdeka-item .icon-emoji.cy{background:rgba(0,255,204,0.12)}
+.merdeka-item .icon-emoji.gd{background:rgba(255,215,0,0.12)}
+.merdeka-item .icon-emoji.gr{background:rgba(34,197,94,0.12)}
+.merdeka-item .text{flex:1}
+.merdeka-item .text strong{color:#F8FAFC;font-size:14px;display:block;margin-bottom:3px}
+.merdeka-item .text p{color:#94A3B8;font-size:13px;line-height:1.5}
+/* Tabel Perbandingan — Zero Scroll Mobile */
+.tabel-merdeka{max-width:650px;margin:0 auto 28px}
+.tabel-merdeka table{width:100%;border-collapse:collapse;font-size:13px;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,0.06)}
+.tabel-merdeka th{background:rgba(255,255,255,0.04);padding:12px 14px;font-weight:700;font-size:13px}
+.tabel-merdeka th:first-child{text-align:left;color:#94A3B8}
+.tabel-merdeka th:nth-child(2){color:#FF4757}
+.tabel-merdeka th:nth-child(3){color:#00FFCC}
+.tabel-merdeka td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.04);text-align:center}
+.tabel-merdeka td:first-child{text-align:left;color:#94A3B8;font-weight:500}
+.tabel-merdeka td:nth-child(2){color:#64748B}
+.tabel-merdeka td:nth-child(3){color:#00FFCC;font-weight:600}
+.tabel-merdeka tr:last-child td{border-bottom:none}
+.tabel-merdeka .check{color:#22C55E;font-size:16px}
+.tabel-merdeka .cross{color:#FF4757;font-size:14px}
+.tabel-merdeka .em{color:#FFD700}
+/* Mobile: stacked cards — ZERO SCROLL */
+@media(max-width:639px){
+.tabel-merdeka table,.tabel-merdeka thead,.tabel-merdeka tbody,.tabel-merdeka tr,.tabel-merdeka td,.tabel-merdeka th{display:block;width:100%}
+.tabel-merdeka thead{display:none!important}
+.tabel-merdeka table{border:none}
+.tabel-merdeka tr{border:1px solid rgba(255,255,255,0.06);border-radius:10px;margin-bottom:8px;overflow:hidden;background:rgba(255,255,255,0.01)}
+.tabel-merdeka td:first-child{background:rgba(255,255,255,0.03);padding:10px 14px;font-weight:700;font-size:12px;color:#E2E8F0;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid rgba(255,255,255,0.06);text-align:center}
+.tabel-merdeka td{padding:8px 14px;text-align:left;border-bottom:none;display:flex;align-items:center;gap:8px;border-bottom:1px solid rgba(255,255,255,0.03)}
+.tabel-merdeka td:last-child{border-bottom:none}
+.tabel-merdeka td:before{content:attr(data-label);font-size:10px;color:#64748B;text-transform:uppercase;letter-spacing:0.5px;min-width:90px;flex-shrink:0}
+.tabel-merdeka td:nth-child(2):before{color:#FF4757}
+.tabel-merdeka td:nth-child(3):before{color:#00FFCC}
+}
+/* Pricing Cards */
+.pricing-args{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:500px;margin:0 auto 24px}
+.pricing-args .pricing-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:22px 28px;text-align:center;transition:all .3s;overflow:visible;overflow-wrap:break-word;word-break:break-word;max-width:none;margin:0}
+.pricing-args .pricing-card:hover{border-color:rgba(0,255,204,0.2);transform:translateY(-2px)}
+.pricing-args .pricing-card .p-label{font-size:11px;color:#64748B;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}
+.pricing-args .pricing-card .p-price{font-size:18px;font-weight:800;color:#F8FAFC}
+.pricing-args .pricing-card .p-desc{font-size:11px;color:#64748B;margin-top:4px;line-height:1.5}
+.pricing-args .pricing-card .p-price.gold{color:#FFD700}
+.pricing-args .pricing-card .p-price.cyan{color:#00FFCC}
+.pricing-args .pricing-card .p-price.green{color:#22C55E}
+.pricing-args .pricing-card.popular{border-color:#FFD700;background:rgba(255,215,0,0.06);position:relative}
+.pricing-args .pricing-card.popular::after{content:'⭐ BEST VALUE';position:absolute;top:-8px;left:50%;transform:translateX(-50%);background:#FFD700;color:#0A0A0A;font-size:8px;font-weight:700;padding:2px 8px;border-radius:4px}
+.pricing-args .pricing-card.free{border-style:dashed;border-color:rgba(255,255,255,0.12)}
+.pricing-cta{margin-top:6px}
+.pricing-cta .btn-outline{display:inline-block;border:1px solid rgba(0,255,204,0.3);color:#00FFCC;padding:8px 20px;border-radius:8px;font-size:13px;font-weight:600;transition:all .3s}
+.pricing-cta .btn-outline:hover{background:rgba(0,255,204,0.1);border-color:#00FFCC}
+@media(min-width:640px){.pricing-args{grid-template-columns:repeat(4,1fr);max-width:660px;gap:14px}}
+@media(max-width:639px){.pricing-args{grid-template-columns:1fr 1fr;max-width:480px;gap:12px}}
+@media(max-width:480px){.pricing-args{grid-template-columns:1fr;max-width:380px;gap:10px}.pricing-args .pricing-card{padding:18px 24px}.pricing-args .pricing-card .p-price{font-size:17px}.pricing-args .pricing-card .p-desc{font-size:11px;line-height:1.4}}
+/* Manifesto closing */
+.manifesto{max-width:600px;margin:24px auto 0;padding:20px 24px;background:linear-gradient(135deg,rgba(255,215,0,0.04),rgba(0,255,204,0.04));border:1px solid rgba(255,215,0,0.1);border-radius:12px;text-align:center}
+.manifesto p{color:#E2E8F0;font-size:14px;line-height:1.8;font-weight:500}
+.manifesto .gold{color:#FFD700}
+.manifesto .cyan{color:#00FFCC}
+
+/* ========== TAKUT RIBET? SECTION ========== */
+.gaptek{background:linear-gradient(145deg,#0D0D0D,#090909);position:relative;overflow:hidden}
+.gaptek::before{content:'❓';position:absolute;top:-30px;right:-20px;font-size:120px;opacity:0.04}
+.gaptek h2{text-align:center;font-size:clamp(1.2rem,3.5vw,1.8rem);font-weight:800;margin-bottom:8px}
+.gaptek .sub{text-align:center;color:#94A3B8;font-size:clamp(0.85rem,2vw,1.05rem);max-width:600px;margin:0 auto 30px;line-height:1.7}
+/* Boss & Magang Cards */
+.boss-grid{display:grid;grid-template-columns:1fr;gap:14px;max-width:650px;margin:0 auto 28px;text-align:left}
+.boss-card{display:flex;align-items:flex-start;gap:14px;padding:20px 22px;border-radius:14px;transition:all .3s}
+.boss-card.magang{background:linear-gradient(135deg,rgba(0,255,204,0.04),rgba(0,255,204,0.01));border:1px solid rgba(0,255,204,0.12)}
+.boss-card.bos{background:linear-gradient(135deg,rgba(255,215,0,0.04),rgba(255,215,0,0.01));border:1px solid rgba(255,215,0,0.12)}
+.boss-card .b-icon{min-width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.boss-card.magang .b-icon{background:rgba(0,255,204,0.1)}
+.boss-card.bos .b-icon{background:rgba(255,215,0,0.1)}
+.boss-card .b-text{flex:1}
+.boss-card .b-text strong{font-size:15px;display:block;margin-bottom:4px}
+.boss-card .b-text .highlight{background:rgba(0,255,204,0.15);color:#00FFCC;padding:0 4px;border-radius:3px}
+.boss-card.bos .b-text .highlight{background:rgba(255,215,0,0.15);color:#FFD700}
+.boss-card .b-text p{color:#94A3B8;font-size:13px;line-height:1.7}
+.boss-card .b-text p strong{color:#E2E8F0;font-size:inherit;display:inline}
+/* Arrow connector */
+.arrow-conn{text-align:center;font-size:24px;color:#FFD700;margin:-4px 0;opacity:0.6}
+/* Pak Basri Card */
+.basri-card{max-width:620px;margin:0 auto 24px;background:rgba(255,215,0,0.03);border:1px solid rgba(255,215,0,0.1);border-radius:14px;padding:24px 20px;text-align:center}
+.basri-card .basri-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,215,0,0.1);border:1px solid rgba(255,215,0,0.2);color:#FFD700;padding:4px 14px;border-radius:50px;font-size:11px;font-weight:600;margin-bottom:14px}
+.basri-card .basri-quote{font-size:clamp(0.95rem,2.5vw,1.1rem);color:#E2E8F0;line-height:1.7;margin-bottom:14px}
+.basri-card .basri-quote strong{color:#FFD700}
+.basri-card .basri-quote .big{font-size:clamp(1.2rem,3vw,1.4rem)}
+.basri-card .basri-img{margin:12px auto;max-width:300px;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,0.06);box-shadow:0 4px 15px rgba(0,0,0,0.3)}
+.basri-card .basri-img img{width:100%;height:auto;display:block}
+.basri-card .basri-caption{color:#64748B;font-size:11px;margin-top:8px}
+/* Data real */
+.data-row{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 20px;max-width:550px;margin:0 auto 24px}
+.data-item{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:10px 16px}
+.data-item .d-icon{font-size:18px}
+.data-item .d-text{font-size:12px;color:#94A3B8;line-height:1.4}
+.data-item .d-text strong{color:#00FFCC;font-size:14px;display:block}
+.data-item .d-text .gold{color:#FFD700}
+@media(min-width:640px){.boss-grid{grid-template-columns:1fr}}
+
+/* ========== BONGKAR TAGIHAN AI SECTION ========== */
+.bongkar{background:linear-gradient(145deg,#090909,#0D0D0D);position:relative;overflow:hidden}
+.bongkar::before{content:'💰';position:absolute;top:-40px;left:-30px;font-size:140px;opacity:0.03;transform:rotate(-20deg)}
+.bongkar h2{text-align:center;font-size:clamp(1.2rem,3.5vw,1.8rem);font-weight:800;margin-bottom:8px}
+.bongkar .sub{text-align:center;color:#94A3B8;font-size:clamp(0.85rem,2vw,1.05rem);max-width:600px;margin:0 auto 30px;line-height:1.7}
+.data-big{max-width:620px;margin:0 auto 24px;background:linear-gradient(135deg,rgba(0,255,204,0.04),rgba(0,255,204,0.01));border:1px solid rgba(0,255,204,0.12);border-radius:16px;padding:24px 20px;text-align:center}
+.data-big .data-label{color:#64748B;font-size:11px;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px}
+.data-big .data-nums{display:flex;flex-wrap:wrap;justify-content:center;gap:16px 28px}
+.data-big .data-nums .d{text-align:center}
+.data-big .data-nums .d .num{font-size:clamp(1.3rem,4vw,2rem);font-weight:800}
+.data-big .data-nums .d .num.cyan{color:#00FFCC}
+.data-big .data-nums .d .num.gold{color:#FFD700}
+.data-big .data-nums .d .num.green{color:#22C55E}
+.data-big .data-nums .d .lbl{color:#64748B;font-size:11px;margin-top:2px}
+.data-big .data-shock{font-size:clamp(1.6rem,5vw,2.4rem);font-weight:900;color:#22C55E;margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.06)}
+.data-big .data-shock span{font-size:clamp(0.8rem,2vw,1rem);color:#94A3B8;font-weight:400;display:block;margin-top:4px}
+.banding-card{max-width:620px;margin:0 auto 24px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:14px;overflow:hidden}
+.banding-card .bc-head{display:flex;background:rgba(255,255,255,0.03);padding:0}
+.banding-card .bc-head .bc-col{padding:12px 14px;text-align:center;font-size:12px;font-weight:600;flex:1}
+.banding-card .bc-head .bc-col:first-child{flex:0 0 90px;text-align:left;color:#64748B;font-size:10px;text-transform:uppercase;letter-spacing:0.5px;padding:12px 10px}
+.bc-col.saas{color:#FF4757}
+.bc-col.mina{color:#00FFCC}
+.banding-card .bc-row{display:flex;align-items:center;border-bottom:1px solid rgba(255,255,255,0.04)}
+.banding-card .bc-row:last-child{border-bottom:none}
+.banding-card .bc-row .bc-col{padding:10px 14px;font-size:13px;flex:1;text-align:center}
+.banding-card .bc-row .bc-col:first-child{flex:0 0 90px;text-align:left;color:#94A3B8;font-size:12px;font-weight:500;padding:10px 10px}
+.banding-card .bc-row .bc-col:nth-child(2){color:#64748B}
+.banding-card .bc-row .bc-col:nth-child(3){color:#00FFCC;font-weight:600}
+.banding-card .bc-row .bc-highlight{background:rgba(34,197,94,0.06)}
+.tri-card{max-width:620px;margin:24px auto;background:linear-gradient(135deg,rgba(255,215,0,0.03),rgba(0,255,204,0.03));border:1px solid rgba(255,215,0,0.1);border-radius:14px;padding:24px 20px;text-align:center}
+.tri-card .tri-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(0,255,204,0.1);border:1px solid rgba(0,255,204,0.2);color:#00FFCC;padding:4px 14px;border-radius:50px;font-size:11px;font-weight:600;margin-bottom:14px}
+.tri-card .tri-quote{font-size:clamp(0.9rem,2.5vw,1.05rem);color:#E2E8F0;line-height:1.8;margin-bottom:12px;text-align:left}
+.tri-card .tri-quote strong{color:#FFD700}
+.tri-card .tri-quote .kipro{color:#00FFCC;font-weight:700}
+.tri-card .tri-quote .striker{color:#FFD700;font-weight:700}
+.tri-card .tri-rule{display:flex;justify-content:center;align-items:center;gap:16px;margin:16px 0}
+.tri-card .tri-rule .r-item{text-align:center;padding:10px 16px;border-radius:10px}
+.tri-card .tri-rule .r-item.kiper{background:rgba(0,255,204,0.08);border:1px solid rgba(0,255,204,0.15)}
+.tri-card .tri-rule .r-item.striker{background:rgba(255,215,0,0.08);border:1px solid rgba(255,215,0,0.15)}
+.tri-card .tri-rule .r-item .r-pct{font-size:clamp(1.5rem,4vw,2rem);font-weight:900}
+.tri-card .tri-rule .r-item .r-pct.cyan{color:#00FFCC}
+.tri-card .tri-rule .r-item .r-pct.gold{color:#FFD700}
+.tri-card .tri-rule .r-item .r-lbl{font-size:11px;color:#94A3B8;margin-top:2px}
+.tri-card .tri-rule .r-arrow{font-size:24px;color:#64748B}
+.tri-card .tri-img{margin:12px auto;max-width:300px;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,0.06);box-shadow:0 4px 15px rgba(0,0,0,0.3)}
+.tri-card .tri-img img{width:100%;height:auto;display:block}
+.tri-card .tri-caption{color:#64748B;font-size:11px;margin-top:8px}
+@media(min-width:640px){.banding-card .bc-head .bc-col:first-child{flex:0 0 120px}.banding-card .bc-row .bc-col:first-child{flex:0 0 120px}}
+
+.btn-cta-red{background:linear-gradient(180deg,#FF4B2B,#FF416C);color:#fff;box-shadow:0 4px 20px rgba(255,65,108,0.25)}
+.btn-cta-red:hover{box-shadow:0 8px 30px rgba(255,65,108,0.35)}
+
+/* ========== VIDEO DEMO SECTION ========== */
+.videodemo{background:linear-gradient(180deg,#0A0A0A,#0D0D0D);position:relative;overflow:hidden}
+.videodemo::before{content:'🎬';position:absolute;top:-30px;right:-20px;font-size:120px;opacity:0.04}
+.videodemo h2{text-align:center;font-size:clamp(1.2rem,3.5vw,1.8rem);font-weight:800;margin-bottom:8px}
+.videodemo .sub{text-align:center;color:#94A3B8;font-size:clamp(0.85rem,2vw,1.05rem);max-width:600px;margin:0 auto 30px;line-height:1.7}
+.video-grid{display:grid;grid-template-columns:1fr;gap:24px;max-width:650px;margin:0 auto 30px}
+@media(min-width:768px){.video-grid{grid-template-columns:1fr 1fr 1fr;max-width:900px;gap:20px}}
+/* Phone Mockup */
+.phone-mockup{background:#1e293b;border-radius:30px;padding:10px;box-shadow:0 10px 40px rgba(0,0,0,0.5);border:2px solid rgba(255,255,255,0.08);position:relative}
+.phone-notch{position:absolute;top:8px;left:50%;transform:translateX(-50%);width:35%;height:18px;background:#1e293b;border-bottom-left-radius:8px;border-bottom-right-radius:8px;z-index:2}
+.phone-screen{position:relative;padding-bottom:177.77%;height:0;overflow:hidden;border-radius:20px;background:#000;cursor:pointer}
+.yt-facade{position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center}
+.yt-facade .play-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.4);z-index:1;transition:background .3s}
+.yt-facade:hover .play-overlay{background:rgba(0,0,0,0.2)}
+.yt-facade .play-btn{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:60px;height:60px;background:rgba(0,0,0,0.8);border-radius:50%;display:flex;justify-content:center;align-items:center;border:2px solid #FFD700;z-index:2;box-shadow:0 0 20px rgba(255,215,0,0.5);transition:transform .3s,box-shadow .3s}
+.yt-facade:hover .play-btn{transform:translate(-50%,-50%) scale(1.1);box-shadow:0 0 30px rgba(255,215,0,0.7)}
+.yt-facade .play-btn::after{content:'';width:0;height:0;border-top:14px solid transparent;border-bottom:14px solid transparent;border-left:22px solid #FFD700;margin-left:5px}
+/* Video Card Info */
+.video-card{text-align:center}
+.video-card h3{font-size:clamp(0.95rem,2.5vw,1.1rem);font-weight:700;margin-top:14px;margin-bottom:6px;color:#F8FAFC}
+.video-card p{font-size:13px;color:#94A3B8;line-height:1.6;max-width:280px;margin:0 auto}
+/* ========== BRAIN OF MINA SECTION ========== */
+.brain{background:linear-gradient(180deg,#090909,#0A0A0A);position:relative;overflow:hidden}
+.brain::before{content:'🧠';position:absolute;top:-50px;left:-30px;font-size:160px;opacity:0.03;transform:rotate(-15deg)}
+.brain h2{text-align:center;font-size:clamp(1.2rem,3.5vw,1.8rem);font-weight:800;margin-bottom:8px}
+.brain .sub{text-align:center;color:#94A3B8;font-size:clamp(0.85rem,2vw,1.05rem);max-width:650px;margin:0 auto 30px;line-height:1.7}
+.brain .sub strong{color:#F8FAFC}
+.brain-grid{display:grid;grid-template-columns:1fr;gap:14px;max-width:700px;margin:0 auto 30px}
+@media(min-width:640px){.brain-grid{grid-template-columns:1fr 1fr;gap:16px}}
+.brain-card{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:14px;padding:20px 18px;transition:all .3s;position:relative;overflow:hidden}
+.brain-card:hover{border-color:rgba(0,255,204,0.2);background:rgba(0,255,204,0.03);transform:translateY(-2px)}
+.brain-card .bc-icon{font-size:28px;margin-bottom:10px;display:block}
+.brain-card h3{font-size:15px;font-weight:700;color:#F8FAFC;margin-bottom:8px;line-height:1.4}
+.brain-card h3 .highlight-cyan{color:#00FFCC}
+.brain-card h3 .highlight-gold{color:#FFD700}
+.brain-card p{font-size:13px;color:#94A3B8;line-height:1.7}
+.brain-card p strong{color:#E2E8F0}
+.brain-card .bc-badge{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:600;padding:3px 10px;border-radius:50px;margin-bottom:10px}
+.bc-badge.gold{background:rgba(255,215,0,0.1);color:#FFD700;border:1px solid rgba(255,215,0,0.2)}
+.bc-badge.cyan{background:rgba(0,255,204,0.1);color:#00FFCC;border:1px solid rgba(0,255,204,0.2)}
+.bc-badge.red{background:rgba(255,71,87,0.1);color:#FF4757;border:1px solid rgba(255,71,87,0.2)}
+.bc-badge.green{background:rgba(34,197,94,0.1);color:#22C55E;border:1px solid rgba(34,197,94,0.2)}
+/* Subuh Proof */
+.subuh-proof{max-width:620px;margin:0 auto 30px;background:linear-gradient(135deg,rgba(255,215,0,0.04),rgba(0,0,0,0.6));border:1px solid rgba(255,215,0,0.15);border-radius:16px;padding:0;overflow:hidden}
+.subuh-proof .sp-head{background:rgba(255,215,0,0.06);padding:14px 20px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(255,215,0,0.1)}
+.subuh-proof .sp-head .sp-icon{font-size:24px}
+.subuh-proof .sp-head .sp-title{font-size:14px;font-weight:700;color:#FFD700;line-height:1.3}
+.subuh-proof .sp-head .sp-sub{font-size:11px;color:#94A3B8;margin-top:1px}
+.subuh-proof .sp-body{padding:16px 20px}
+.subuh-proof .sp-body .sp-meta{display:flex;flex-wrap:wrap;gap:10px 20px;margin-bottom:14px}
+.subuh-proof .sp-body .sp-meta .m{font-size:12px;color:#64748B}
+.subuh-proof .sp-body .sp-meta .m strong{color:#F8FAFC}
+.subuh-proof .sp-body .sp-img{margin:0 auto 12px;max-width:340px;border-radius:10px;overflow:hidden;border:1px solid rgba(255,215,0,0.08);box-shadow:0 4px 20px rgba(0,0,0,0.4)}
+.subuh-proof .sp-body .sp-img img{width:100%;height:auto;display:block}
+.subuh-proof .sp-body .sp-caption{font-size:11px;color:#64748B;font-style:italic;text-align:center}
+.subuh-proof .sp-body .sp-story{background:rgba(0,255,204,0.03);border:1px solid rgba(0,255,204,0.08);border-radius:10px;padding:14px 16px;margin-top:14px}
+.subuh-proof .sp-body .sp-story p{font-size:13px;color:#E2E8F0;line-height:1.7}
+.subuh-proof .sp-body .sp-story p strong{color:#00FFCC}
+/* ========== PRICING + SNEAK PEEK SECTION ========== */
+.pricing{background:linear-gradient(180deg,#0A0A0A,#080808);position:relative;overflow:hidden}
+.pricing::before{content:'💰';position:absolute;bottom:-40px;right:-40px;font-size:180px;opacity:0.03;transform:rotate(10deg)}
+.pricing h2{text-align:center;font-size:clamp(1.2rem,3.5vw,1.8rem);font-weight:800;margin-bottom:8px}
+.pricing .sub{text-align:center;color:#94A3B8;font-size:clamp(0.85rem,2vw,1.05rem);max-width:600px;margin:0 auto 30px;line-height:1.7}
+.pricing .sub strong{color:#F8FAFC}
+/* Sneak Peek Gallery */
+.peek-grid{display:grid;grid-template-columns:1fr;gap:14px;max-width:520px;margin:0 auto 28px}
+@media(min-width:640px){.peek-grid{grid-template-columns:1fr 1fr;gap:16px}.peek-card .pc-img{max-height:none}}
+.peek-card{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:12px;overflow:hidden;transition:all .3s}
+.peek-card:hover{border-color:rgba(0,255,204,0.2);transform:translateY(-2px)}
+.peek-card .pc-img{width:100%;display:block;border-bottom:1px solid rgba(255,255,255,0.04)}
+.peek-card .pc-label{padding:10px 14px;font-size:12px;font-weight:600;color:#94A3B8;text-align:center}
+.peek-card .pc-label span{color:#00FFCC}
+.peek-link{text-align:center;margin:-20px 0 28px;font-size:13px}
+.peek-link a{color:#00FFCC;text-decoration:underline;text-underline-offset:3px;transition:color .2s}
+.peek-link a:hover{color:#FFD700}
+/* Pricing Card — PREMIUM KILLER */
+.pricing-card{max-width:440px;margin:0 auto 24px;background:linear-gradient(165deg,#0C0C0C 0%,#111 35%,#0A0A0A 100%);border:1px solid rgba(255,215,0,0.12);border-radius:24px;padding:0;overflow:hidden;position:relative;box-shadow:0 25px 70px rgba(0,0,0,0.6),0 0 60px rgba(255,215,0,0.02),inset 0 1px 0 rgba(255,215,0,0.06)}
+.pricing-card::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 20% 0%,rgba(255,215,0,0.04) 0%,transparent 60%),radial-gradient(ellipse at 80% 100%,rgba(0,255,204,0.03) 0%,transparent 50%);pointer-events:none;z-index:0}
+
+/* Premium Badge — Gold Shimmer Ribbon */
+.pricing-card .pc-badge{background:linear-gradient(135deg,#FFD700 0%,#ffb300 25%,#FFD700 50%,#ffcc00 75%,#FFD700 100%);background-size:300% 100%;animation:shimmer-gold 4s ease-in-out infinite;color:#0A0A0A;text-align:center;padding:12px 16px;font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:1.5px;position:relative;z-index:1;box-shadow:0 4px 25px rgba(255,215,0,0.35),inset 0 1px 0 rgba(255,255,255,0.3)}
+.pricing-card .pc-badge::after{content:'';position:absolute;bottom:-6px;left:0;right:0;height:6px;background:linear-gradient(180deg,rgba(255,215,0,0.3),transparent)}
+
+@keyframes shimmer-gold{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+
+/* Premium Body */
+.pricing-card .pc-body{padding:32px 24px 24px;text-align:center;position:relative;z-index:1}
+.pricing-card .pc-name{color:#64748B;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;margin-bottom:6px;position:relative;display:inline-block}
+.pricing-card .pc-name::after{content:'✦';color:#FFD700;font-size:10px;margin-left:8px;opacity:0.6}
+.pricing-card .pc-price{font-size:clamp(2.2rem,6vw,3rem);font-weight:900;color:#FFD700;line-height:1;margin-bottom:4px;text-shadow:0 0 30px rgba(255,215,0,0.15),0 2px 4px rgba(0,0,0,0.3)}
+.pricing-card .pc-price span{font-size:clamp(0.8rem,2vw,1rem);color:#64748B;font-weight:400}
+.pricing-card .pc-sub{color:#94A3B8;font-size:13px;margin-bottom:22px;padding-bottom:22px;border-bottom:1px solid rgba(255,215,0,0.08)}
+.pricing-card .pc-sub strong{color:#FFD700;font-weight:700}
+
+/* Premium Benefits List */
+.pricing-card .pc-list{text-align:left;margin-bottom:0}
+.pricing-card .pc-list li{display:flex;align-items:flex-start;gap:12px;padding:9px 0;font-size:14px;color:#E2E8F0;line-height:1.5;list-style:none;border-bottom:1px solid rgba(255,255,255,0.03)}
+.pricing-card .pc-list li:last-child{border-bottom:none}
+.pricing-card .pc-list li .chk{color:#22C55E;font-weight:700;min-width:20px;font-size:16px;margin-top:1px}
+.pricing-card .pc-list li .cr{color:#FFD700;font-size:11px;font-weight:600}
+.pricing-card .pc-list li small{color:#64748B;font-size:12px;display:block;font-weight:400}
+/* Price Anchor */
+.price-anchor{max-width:420px;margin:0 auto;background:rgba(34,197,94,0.03);border:1px solid rgba(34,197,94,0.08);border-radius:12px;padding:14px 16px;text-align:center}
+.price-anchor p{font-size:13px;color:#94A3B8;line-height:1.7}
+.price-anchor p strong{color:#22C55E}
+/* ========== FOOTER ========== */
+.footer{border-top:1px solid rgba(255,255,255,0.05);padding:24px 0;text-align:center;background:#0A0A0A}
+.footer p{color:#64748B;font-size:11px}
+.footer-links{margin-bottom:10px;display:flex;flex-wrap:wrap;justify-content:center;gap:4px 12px;align-items:center}
+.footer-links a{color:#64748B;font-size:11px;transition:color .2s}
+.footer-links a:hover{color:#00FFCC}
+.footer-links .dot{color:#333;font-size:10px}
+.footer .garansi-uptime{color:#22C55E;font-size:10px;margin-bottom:6px}
+.footer .copyright{color:#4A5568;font-size:10px}
+
+/* ============================================
+   SECTION 10 — PRICING URGENCY ELEMENTS
+   ============================================ */
+
+/* VALUE STACKING RECAP */
+.vs-wrap{max-width:440px;margin:-16px auto 22px;padding:20px 24px 24px;background:linear-gradient(165deg,#0E0E0E,#121212);border:1px solid rgba(255,215,0,0.08);border-top:none;border-radius:0 0 24px 24px;position:relative;box-shadow:0 15px 40px rgba(0,0,0,0.3),inset 0 1px 0 rgba(255,255,255,0.02)}
+.vs-title{text-align:center;font-size:14px;font-weight:900;color:#FFD700;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid rgba(255,215,0,0.12);text-transform:uppercase;letter-spacing:1.5px;text-shadow:0 0 20px rgba(255,215,0,0.08)}
+.vs-list{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+.vs-item{display:flex;align-items:center;gap:12px;padding:8px 12px;border-radius:10px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.04);transition:all .2s}
+.vs-item:hover{background:rgba(255,255,255,0.04);border-color:rgba(255,215,0,0.1)}
+.vs-item:nth-child(3){background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.15)}
+.vs-item:nth-child(4){background:rgba(0,255,204,0.04);border:1px dashed rgba(0,255,204,0.15)}
+.vs-icon{font-size:18px;line-height:1;min-width:26px;text-align:center}
+.vs-detail{display:flex;justify-content:space-between;flex:1;align-items:center;gap:8px}
+.vs-name{color:#E2E8F0;font-size:13px;font-weight:600;line-height:1.3}
+.vs-val{color:#94A3B8;font-size:12px;font-weight:700;white-space:nowrap;text-decoration:line-through;opacity:0.6}
+.vs-total{border-top:1px solid rgba(255,215,0,0.1);padding-top:16px}
+.vs-total-line{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:#CBD5E1;font-weight:700;margin-bottom:18px;padding:0 4px;letter-spacing:0.3px}
+.vs-cross{color:#ef4444;font-size:17px;font-weight:900;text-decoration:line-through;opacity:0.7}
+
+/* Single CTA after value stacking — PREMIUM */
+.vs-cta{display:block;background:linear-gradient(135deg,#FFD700 0%,#ffb300 50%,#FFD700 100%);color:#0A0A0A;font-weight:900;font-size:clamp(16px,3vw,20px);padding:18px 32px;border-radius:60px;text-decoration:none;border:2px solid rgba(255,255,255,0.3);box-shadow:0 8px 30px rgba(255,215,0,0.25),0 4px 60px rgba(255,215,0,0.08);transition:all .3s ease;width:100%;max-width:380px;text-align:center;margin:0 auto;position:relative;overflow:hidden;letter-spacing:0.5px}
+.vs-cta::before{content:'';position:absolute;top:0;left:-75%;width:50%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent);transform:skewX(-25deg);animation:cta-shine 3s ease-in-out infinite}
+@keyframes cta-shine{0%,100%{left:-75%}50%{left:125%}}
+.vs-cta:hover{transform:scale(1.03) translateY(-2px);box-shadow:0 12px 40px rgba(255,215,0,0.35),0 4px 80px rgba(255,215,0,0.12)}
+
+/* Live viewers */
+.urg-live{display:flex;align-items:center;justify-content:center;gap:8px;background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.3);padding:6px 16px;border-radius:50px;margin:0 auto 25px;width:fit-content}
+.urg-live .urg-dot{width:10px;height:10px;background:#ef4444;border-radius:50%;animation:pulse-red-fomo 1.5s infinite;display:inline-block}
+.urg-live span{color:#F8FAFC;font-size:13px;font-weight:600}
+.urg-live strong{color:#ef4444;font-weight:900}
+
+/* Scarcity bar */
+.urg-scarcity{background:rgba(239,68,68,0.05);border:1px dashed #ef4444;border-radius:12px;padding:14px;margin-bottom:18px;text-align:left;max-width:480px;margin-left:auto;margin-right:auto}
+.urg-slot-header{display:flex;justify-content:space-between;font-size:13px;color:#CBD5E1;font-weight:700;margin-bottom:8px}
+.urg-sisa{color:#ef4444;font-weight:900;animation:blink 1.5s infinite}
+.urg-bar{background:#222;height:14px;border-radius:10px;overflow:hidden;margin-bottom:10px;border:1px solid #333}
+.urg-fill{background:repeating-linear-gradient(45deg,#ef4444,#ef4444 10px,#dc2626 10px,#dc2626 20px);height:100%;animation:moveStripes 2s linear infinite;border-radius:10px}
+.urg-warning{font-size:11px;color:#94A3B8;line-height:1.5}
+.urg-warning strong{color:#ef4444}
+
+/* Timer */
+.urg-timer{text-align:center;margin-bottom:18px}
+.urg-timer-label{color:#FFD700;font-size:12px;font-weight:900;margin-bottom:10px;animation:blink 1.5s infinite;letter-spacing:0.5px}
+.urg-boxes{display:flex;justify-content:center;align-items:center;gap:4px}
+.urg-box{background:#222;color:#fff;padding:8px 14px;border-radius:6px;min-width:50px;border:1px solid #444;text-align:center;display:inline-block}
+.urg-box.urg-highlight{background:rgba(231,76,60,0.1);border:1px solid rgba(231,76,60,0.4)}
+.urg-box.urg-highlight .urg-num{color:#e74c3c}
+.urg-num{font-size:clamp(20px,5vw,28px);font-weight:900;line-height:1}
+.urg-unit{font-size:9px;color:#94A3B8;margin-top:3px;font-weight:700}
+.urg-sep{font-size:20px;font-weight:900;color:#666;padding-top:4px}
+
+/* 100% Secure */
+.urg-secure{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:22px;padding:8px 0}
+.urg-secure img{width:auto;height:52px;object-fit:contain}
+.urg-secure span{color:#CBD5E1;font-size:14px;font-weight:700}
+.urg-secure strong{color:#22C55E;font-size:15px}
+
+/* Mobile urgency */
+@media(max-width:480px){
+  .urg-box{min-width:40px;padding:6px 10px}
+  .urg-secure img{height:40px}
+  .urg-secure span{font-size:12px}
+  .urg-secure strong{font-size:13px}
+  .vs-cta{font-size:15px;padding:16px 24px}
+  .pricing-card .pc-body{padding:24px 18px 20px}
+  .vs-wrap{padding:16px 16px 20px}
+}
+
+/* Keyframes reuse */
+@keyframes pulse-red-fomo{0%{box-shadow:0 0 0 0 rgba(239,68,68,.7)}70%{box-shadow:0 0 0 6px rgba(239,68,68,0)}100%{box-shadow:0 0 0 0 rgba(239,68,68,0)}}
+@keyframes moveStripes{0%{background-position:0 0}100%{background-position:40px 0}}
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="container">
+    <img src="https://solusiadmin.com.solusiadmin-core.online/assets/LOGO.png" alt="Solusi Admin" onerror="this.style.display='none'">
+    <a href="https://solusiadmin-core.online/perbandingan" class="nav-cta">📊 BANDINGKAN PAKET</a>
+  </div>
+</nav>
+
+<!-- ===== HERO WEALTH ===== -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">⚠️ PELUANG USAHA BARU 2026</div>
+    
+    <h1>MODAL <span class="highlight">SEKALI</span>, CUAN <span class="highlight-green">BERKALI-KALI</span></h1>
+    
+    <p class="hero-sub">
+      Punya HP Android nganggur? Jadikan <strong>"Mesin Jasa" Setup Robot CS AI</strong>.<br>
+      Ribuan UMKM kewalahan balas chat — tapi <strong style="color:#FF4757">GAPTEK</strong> cara pasang robot otomatis. Lo masuk sebagai <strong style="color:#00FFCC">SOLUSI</strong>.
+    </p>
+
+    <!-- 3 langkah -->
+    <div class="offer-grid">
+      <div class="offer-item">
+        <div class="icon gold">✅</div>
+        <div class="text">
+          <strong>ALATNYA — Otak Robot CS AI Premium</strong>
+          <p>Dapur Mina Core: Arsitektur Otak CS kompleks (META PROMPT) — bukan auto-reply biasa kayak WA META AI yang cuma baca histori chat. Robot Mina lebih <strong style="color:#00FFCC">HUMANIS</strong>, lebih jago <strong style="color:#FFD700">JUALAN</strong>. Udah diakui member. Semua siap pakai.</p>
+        </div>
+      </div>
+      <div class="offer-item">
+        <div class="icon cyan">✅</div>
+        <div class="text">
+          <strong>LISENSINYA — Hak Usaha (Commercial Rights)</strong>
+          <p>Dapat hak jual jasa setting ke UMKM lain. Profit 100% milik lo. Tanpa bagi hasil selamanya.</p>
+        </div>
+      </div>
+      <div class="offer-item">
+        <div class="icon green">✅</div>
+        <div class="text">
+          <strong>JASANYA — Lo Jual Rp300-500rb/klien</strong>
+          <p>Cari UMKM yang kewalahan chat → tawarin jasa setup. Tinggal copy-paste panduan yang kami kasih.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- LOGIKA CUAN -->
+    <div class="logic-cuan">
+      <h3>💰 LOGIKA CUAN</h3>
+      <div class="row">
+        <span class="label">Modal Lisensi (Sekali Bayar)</span>
+        <span class="value gold">Rp199.000</span>
+      </div>
+      <div class="row">
+        <span class="label">Tarif Jasa lo per UMKM</span>
+        <span class="value">Rp300.000 — Rp500.000</span>
+      </div>
+      <div class="row highlight-row">
+        <span class="label">🎯 Dapat 1 klien aja</span>
+        <span class="value">BALIK MODAL + UNTUNG!</span>
+      </div>
+      <div class="row">
+        <span class="label">Dapat 10 klien</span>
+        <span class="value green">Rp3 Juta — Rp5 Juta</span>
+      </div>
+      <div class="row">
+        <span class="label">Bagi hasil?</span>
+        <span class="value" style="color:#22C55E">NOL! 100% Milik lo</span>
+      </div>
+    </div>
+
+    <!-- SOCIAL PROOF -->
+    <div class="proof-row">
+      <div class="item">👥 <strong>90.000+</strong> Pebisnis</div>
+      <div class="item">⭐ <strong>4.9</strong> (890+ ulasan)</div>
+      <div class="item">💬 <strong>50K+</strong> Chat/Hari</div>
+    </div>
+
+    <a href="https://solusiadmin-core.online/perbandingan" class="btn-cta">🔥 AMBIL ALAT TEMPURNYA</a>
+    <p class="garansi">
+      💰 Rp199rb — Bandingin sama gaji admin Rp3jt/bulan. Hitung sendiri.<br>
+      📖 Panduan dashboard lengkap — tinggal ikutin langkahnya.
+    </p>
+  </div>
+</section>
+
+<!-- ===== BUKTI NYATA SECTION ===== -->
+<section class="bukti">
+  <div class="container">
+    <h2>💥 <span class="gold">BUKTI NYATA</span> DI LAPANGAN</h2>
+    
+    <div class="bukti-card">
+      <div class="badge">🔥 REAL CLOSING — BUKAN JANJI</div>
+      
+      <div class="quote">
+        <strong>"Modal Rp199rb, saya <span class="big-number">CLOSING Rp6.000.000</span><br>
+        Jasa Setup Robot + Web. 100% Profit bersih.<br>
+        <span class="big-number">ROI BRUTAL!</span>"</strong>
+      </div>
+      
+      <div style="margin:16px auto;max-width:340px;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,0.08);box-shadow:0 4px 20px rgba(0,0,0,0.3)">
+        <img src="https://solusiadmin.com.solusiadmin-core.online/assets/testiProfit.jpeg" alt="Bukti Closing Rp6 Juta" style="width:100%;height:auto;display:block" loading="lazy">
+      </div>
+      <p style="color:#64748B;font-size:11px;margin:-10px 0 16px 0">📸 Screenshot real dari member — izin publish</p>
+      <div class="author">
+        <div class="avatar">M</div>
+        <div class="info">
+          <div class="name">Member SolusiAdmin</div>
+          <div class="role">✅ Lisensi Hak Usaha · Closing Des 2025</div>
+        </div>
+      </div>
+      
+      <div class="profit-line">
+        <div class="stat">
+          <div class="num">Rp199.000</div>
+          <div class="lbl">Modal Awal</div>
+        </div>
+        <div class="stat">
+          <div class="num gold">Rp6.000.000</div>
+          <div class="lbl">Total Closing</div>
+        </div>
+        <div class="stat">
+          <div class="num">3.015%</div>
+          <div class="lbl">ROI</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="cta-bukti">
+      <p class="hero-sub" style="margin-bottom:16px;font-size:clamp(0.85rem,2vw,1rem)">
+        Mau nyusul jejak <strong style="color:#00FFCC">90.000+ pebisnis</strong> yang sudah buktikan sendiri?<br>
+        <span style="color:#64748B;font-size:clamp(0.75rem,1.8vw,0.85rem)">📱 AR App sudah di-download <strong style="color:#F8FAFC">5 Juta+ kali</strong> di Google Play</span>
+      </p>
+      <a href="https://solusiadmin-core.online/perbandingan" class="btn-cta">💰 GABUNG SEKARANG</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KEMERDEKAAN DIGITAL SECTION ===== -->
+<section class="merdeka">
+  <div class="container">
+    <h2 class="gold">🕊️ KEMERDEKAAN DIGITAL</h2>
+    <p class="sub">
+      Robot CS + Data Leads + CRM — Semua di <strong>HP LO SENDIRI.</strong><br>
+      Bukan di cloud orang. Bukan sewaan. <strong style="color:#FFD700">Ini aset lo.</strong>
+    </p>
+
+    <!-- 4 Kartu Kemerdekaan -->
+    <div class="merdeka-grid">
+      <div class="merdeka-item">
+        <div class="icon-emoji cy">⚡</div>
+        <div class="text">
+          <strong>MERDEKA DARI TAGIHAN BULANAN</strong>
+          <p>Token Rp3,-/chat. <strong style="color:#22C55E">Pay as you go</strong> — bayar pas lo pake. Chat sepi? Biaya NOL. Gak ada invoice bulanan yang bikin deg-degan tiap awal bulan.</p>
+        </div>
+      </div>
+      <div class="merdeka-item">
+        <div class="icon-emoji gd">📱</div>
+        <div class="text">
+          <strong>MERDEKA ASET DI HP SENDIRI</strong>
+          <p>Robot + data leads di HP lo. Bukan di server orang. <strong style="color:#22C55E">Privasi terjamin.</strong> Gak bisa di-sandera vendor. 1 lisensi Core = bisa banyak HP.</p>
+        </div>
+      </div>
+      <div class="merdeka-item">
+        <div class="icon-emoji gr">🎁</div>
+        <div class="text">
+          <strong>MERDEKA DAPAT CRM T1 GRATIS</strong>
+          <p>FREE CRM Tier 1 — manajemen leads + Kanban + AI Lead Sniper. Datanya di HP lo juga (IndexedDB). <strong style="color:#22C55E">Gak perlu bayar CRM bulanan.</strong></p>
+        </div>
+      </div>
+      <div class="merdeka-item">
+        <div class="icon-emoji cy">🔰</div>
+        <div class="text">
+          <strong>MERDEKA DARI RIBET CODING</strong>
+          <p>Anti-Gaptek. Masterclass + Knowledge Base + Komunitas VVIP. <strong style="color:#00FFCC">Tinggal copy-paste otak robot.</strong> Panduan langkah demi langkah dari NOL.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabel Perbandingan -->
+    <div class="tabel-merdeka">
+      <table>
+        <thead>
+          <tr>
+            <th>Perbandingan</th>
+            <th>SaaS Chatbot 😈</th>
+            <th>Dapur Mina 🕊️</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Kepemilikan</td>
+            <td data-label="SaaS">Numpang di cloud</td>
+            <td data-label="Dapur Mina"><span class="check">✅</span> <strong>ASET DI HP LO</strong></td>
+          </tr>
+          <tr>
+            <td>Data Leads</td>
+            <td data-label="SaaS">Di server mereka</td>
+            <td data-label="Dapur Mina"><span class="check">✅</span> <strong>Di HP sendiri — privat</strong></td>
+          </tr>
+          <tr>
+            <td>Biaya Bulanan</td>
+            <td data-label="SaaS">Rp500rb — Rp1,5jt <span class="cross">❌</span></td>
+            <td data-label="Dapur Mina"><span class="check">✅</span> <strong>Rp0</strong><br><span style="color:#64748B;font-size:10px">+ token PAYG</span></td>
+          </tr>
+          <tr>
+            <td>Berhenti Bayar?</td>
+            <td data-label="SaaS">Data lenyap <span class="cross">❌</span></td>
+            <td data-label="Dapur Mina"><span class="check">✅</span> <strong>Data tetap aman di HP</strong></td>
+          </tr>
+          <tr>
+            <td>CRM</td>
+            <td data-label="SaaS">Bayar lagi <span class="cross">❌</span></td>
+            <td data-label="Dapur Mina"><span class="check">✅</span> <strong>FREE CRM T1</strong> (di HP juga)</td>
+          </tr>
+          <tr>
+            <td>WA API Fee</td>
+            <td data-label="SaaS">Berbayar per chat (Meta) <span class="cross">❌</span></td>
+            <td data-label="Dapur Mina"><span class="check">✅</span> <strong>GRATIS</strong> (AR lokal)</td>
+          </tr>
+          <tr>
+            <td>Vendor Lock-in</td>
+            <td data-label="SaaS"><span class="cross">❌</span> Tergantung terus</td>
+            <td data-label="Dapur Mina"><span class="check">✅</span> <span class="em">MERDEKA!</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pricing AR -->
+    <p style="color:#64748B;font-size:11px;margin-bottom:8px;text-transform:uppercase;letter-spacing:1px">Biaya AR (Bodi Robot) — lo bayar sendiri via Google Play</p>
+    <div class="pricing-args">
+      <div class="pricing-card free">
+        <div class="p-label">COBA DULU</div>
+        <div class="p-price" style="color:#64748B">GRATIS</div>
+        <div class="p-desc">Iklan + watermark<br>Learning phase</div>
+      </div>
+      <div class="pricing-card">
+        <div class="p-label">BULANAN</div>
+        <div class="p-price">Rp89rb</div>
+        <div class="p-desc">Auto-renewal<br>Lo kontrol sendiri</div>
+      </div>
+      <div class="pricing-card popular">
+        <div class="p-label">TAHUNAN</div>
+        <div class="p-price gold">Rp590rb</div>
+        <div class="p-desc">7 hari FREE TRIAL<br>~Rp49rb/bulan</div>
+      </div>
+      <div class="pricing-card">
+        <div class="p-label">SEUMUR HIDUP</div>
+        <div class="p-price cyan">Rp1,49jt</div>
+        <div class="p-desc">One time payment<br><strong style="color:#FFD700">BEST FOR RESELLER</strong></div>
+      </div>
+    </div>
+    <p style="color:#64748B;font-size:11px;margin-top:-18px;margin-bottom:28px">
+      🆓 Mulai dari GRATIS dulu — rakit otak robot, kalo udah pinter jualan baru upgrade lewat Google Play.<br>
+      ⛽ Token OpenAI: isi saldo sendiri langsung ke OpenAI. Lo yang kontrol pemakaian.
+    </p>
+
+    <!-- Manifesto -->
+    <div class="manifesto">
+      <p>
+        🔥 <span class="gold">Bukan sewa.</span> Bukan numpang.<br>
+        <span class="cyan">Ini aset digital lo.</span> Robot + data + CRM — 
+        semuanya milik lo sendiri di HP lo.<br>
+        AR PRO lo bayar sendiri via Google Play. Token lo isi sendiri ke OpenAI.<br>
+        <span class="gold">MANDIRI. KONTROL PENUH. GAK ADA YANG NITIP.</span>
+      </p>
+    </div>
+
+    <div style="margin-top:20px">
+      <p style="color:#94A3B8;font-size:13px;margin-bottom:12px">
+        💡 <strong style="color:#00FFCC">Yang lo bayar ke kami:</strong> Cuma Rp199rb SEUMUR HIDUP untuk <strong style="color:#FFD700">OTAK ROBOT CS</strong> (Dapur Mina Core).<br>
+        Sisanya — AR PRO + Token — lo urus sendiri. Transparan semua.
+      </p>
+      <a href="https://solusiadmin-core.online/perbandingan" class="btn-cta">🧠 AMBIL OTAK ROBOT — Rp199rb</a>
+      <p class="garansi">
+        💰 Rp199rb — Bandingin sama gaji admin Rp3jt/bulan. Hitung sendiri.<br>
+        📖 Panduan dashboard lengkap — tinggal ikutin langkahnya.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TAKUT RIBET? SECTION ===== -->
+<section class="gaptek">
+  <div class="container">
+    <h2>❓ <span class="gold">TAKUT RIBET?</span> GAPTEK?</h2>
+    <p class="sub">Tenang — ini analogi sederhana biar lo paham cara kerja robot AI-nya.</p>
+
+    <!-- Boss & Magang Cards -->
+    <div class="boss-grid">
+      <div class="boss-card magang">
+        <div class="b-icon">🧑‍🎓</div>
+        <div class="b-text">
+          <strong>Anggap Robot AI ini <span class="highlight">ANAK MAGANG</span></strong>
+          <p>Lulusan universitas terbaik — IQ tinggi, bahasa bagus, hitungan cepat.<br>
+          <strong>TAPI</strong> dia baru masuk kerja <strong style="color:#FF4757">HARI INI.</strong></p>
+          <p style="margin-top:6px;color:#64748B">❌ Dia belum tahu lo jualan apa.<br>
+          ❌ Dia belum tahu harga modal lo.<br>
+          ❌ Dia belum tahu target pasar lo.</p>
+        </div>
+      </div>
+      
+      <div class="arrow-conn">⬇️</div>
+      
+      <div class="boss-card bos">
+        <div class="b-icon">👔</div>
+        <div class="b-text">
+          <strong>Tugas lo sebagai <span class="highlight">BOS:</span></strong>
+          <p>Kasih Briefing (instruksi) yang jelas di awal — <strong>pakai panduan dari Dapur Mina OS.</strong><br><br>
+          Kami udah siapin <strong style="color:#00FFCC">Dashboard Panduan Mandiri</strong> — tinggal diikutin langkah-langkahnya.<br><br>
+          <span style="color:#FFD700">😤 Jangan salahin Anak Magang kalo dia salah jawab — karena lo gak kasih info produk yang lengkap.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pak Basri Card -->
+    <div class="basri-card">
+      <div class="basri-badge">🔥 BUKTI NYATA — USIA 68 TAHUN BISA!</div>
+      <div class="basri-quote">
+        <strong class="big">"Usia 68 Tahun Saja Bisa Setting dalam 1 Hari!"</strong><br>
+        Bapak Basri membuktikan teknologi AI ini sangat simpel.<br>
+        Walaupun mengaku <strong>gaptek</strong>, nyatanya beliau hanya butuh <strong style="color:#00FFCC">1 HARI SAJA</strong> untuk menyulap WhatsApp-nya jadi mesin balas otomatis.
+      </div>
+      <div class="basri-img">
+        <img src="https://solusiadmin.com.solusiadmin-core.online/assets/PakBasriTesti.webp" alt="Testimonial Pak Basri 68 Tahun" loading="lazy">
+      </div>
+      <div class="basri-caption">📸 Screenshot WA Testimonial Pak Basri — izin publish</div>
+    </div>
+
+    <!-- Data Real -->
+    <div class="data-row">
+      <div class="data-item">
+        <div class="d-icon">⏱️</div>
+        <div class="d-text"><strong>5 — 15 Menit</strong>Rata-rata member merakit robot</div>
+      </div>
+      <div class="data-item">
+        <div class="d-icon">👴</div>
+        <div class="d-text"><strong>62 — 68 Tahun</strong>Bapak-bapak gaptek <span class="gold">BISA!</span></div>
+      </div>
+      <div class="data-item">
+        <div class="d-icon">📋</div>
+        <div class="d-text"><strong>Sudah Siap</strong>Dashboard panduan mandiri + bahan baku</div>
+      </div>
+    </div>
+    <p style="text-align:center;color:#64748B;font-size:12px;margin-top:-16px;margin-bottom:24px">
+      💡 Ada yang copy-paste aja gak bisa? Suruh anak/keponakan/famili bantuin — 5-15 menit aja kok.
+    </p>
+
+    <div style="text-align:center">
+      <a href="https://solusiadmin-core.online/perbandingan" class="btn-cta">🔥 GAS COBA DULU — GRATIS</a>
+      <p class="garansi">
+        💰 Rp199rb — Bandingin sama gaji admin Rp3jt/bulan. Hitung sendiri.<br>
+        📖 Panduan dashboard lengkap — lo pasti bisa!
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NERAKA SECTION ===== -->
+<section class="neraka" id="neraka">
+  <div class="container">
+    <h2>🔥 JUJUR, APAKAH ANDA SEDANG DI FASE "NERAKA" INI?</h2>
+    
+    <div class="neraka-grid">
+      <div class="neraka-item">
+        <div class="icon-x">✕</div>
+        <div class="text">
+          <strong>Diperbudak Chat WA</strong>
+          <p>HP bunyi trus 24 jam. Mau tidur, lagi makan — chat masuk, lo jawab. <strong style="color:#FF4757">Lo jadi TKW digital sendiri.</strong></p>
+        </div>
+      </div>
+      <div class="neraka-item">
+        <div class="icon-x">✕</div>
+        <div class="text">
+          <strong>Momen Emas Keluarga Hilang</strong>
+          <p>Anak minta main, pasangan minta ngobrol, tapi lo sibuk nunduk balas chat. Rasa bersalah itu nyata.</p>
+        </div>
+      </div>
+      <div class="neraka-item">
+        <div class="icon-x">✕</div>
+        <div class="text">
+          <strong>Customer Kabur (Ghosting)</strong>
+          <p>Iklan boncos, traffic masuk, tapi pembeli <strong style="color:#FF4757">lari ke kompetitor</strong> gara-gara telat balas 10 menit.</p>
+        </div>
+      </div>
+      <div class="neraka-item">
+        <div class="icon-x">✕</div>
+        <div class="text">
+          <strong>Trauma Scale-Up</strong>
+          <p>Takut hire CS baru? Ribet ngajarin, gak becus, kabur 2 minggu. Jadi <strong style="color:#FF4757">mental block</strong> bisnis lo.</p>
+        </div>
+      </div>
+      <div class="neraka-item">
+        <div class="icon-x">✕</div>
+        <div class="text">
+          <strong>Maju Kena, Mundur Kena</strong>
+          <p>Hire CS? Gaji 3 Juta++ berat. Gak hire CS? Badan remuk sendiri. <strong style="color:#FF4757">Lo terjebak.</strong></p>
+        </div>
+      </div>
+      <div class="neraka-item">
+        <div class="icon-x">✕</div>
+        <div class="text">
+          <strong>Gaji Karyawan Lembur Bikin Boncos</strong>
+          <p>Lembur seminggu 15 jam = Rp1,5 Juta++/bulan. Cuma buat copas chat itu-itu aja. Mau terus?</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="cta-wrap">
+      <a href="https://solusiadmin-core.online/perbandingan" class="btn-cta btn-cta-red">💪 KELUAR DARI NERAKA SEKARANG</a>
+    </div>
+    
+    <div class="neraka-footer">
+      🔥 Kalau lo mengalami <strong>6 Fase Neraka</strong> di atas — tenang, ada jalan keluarnya.<br>
+      <strong style="color:#00FFCC">90.000+ pebisnis</strong> sudah <strong>bebas dari belenggu chat</strong>. Giliran lo sekarang.<br>
+      <span style="color:#64748B;font-size:12px">📱 AR App — <strong style="color:#F8FAFC">5 Juta+ download</strong> di Google Play</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BONGKAR TAGIHAN AI SECTION ===== -->
+<section class="bongkar">
+  <div class="container">
+    <h2>💰 <span class="gold">BONGKAR TAGIHAN</span> KARYAWAN AI</h2>
+    <p class="sub">
+      Data real pemakaian Maret 2026. Siap-siap kaget — tagihan token AI <strong style="color:#22C55E">gak sampai seharga 2 mangkok bakso</strong> sebulan.
+    </p>
+
+    <!-- DATA BIG -->
+    <div class="data-big">
+      <div class="data-label">📊 Data Pemakaian Maret 2026 — GPT-4.1-Mini + Prompt Kompleks 4,536 Token</div>
+      <div class="data-nums">
+        <div class="d">
+          <div class="num cyan">1.199</div>
+          <div class="lbl">Request Chat</div>
+        </div>
+        <div class="d">
+          <div class="num gold">5,5 Juta</div>
+          <div class="lbl">Total Token</div>
+        </div>
+        <div class="d">
+          <div class="num" style="color:#64748B">$2.30</div>
+          <div class="lbl">Biaya OpenAI</div>
+        </div>
+      </div>
+      <div class="data-shock">
+        ≈ Rp36.800 / BULAN
+        <span>Untuk 1,199 chat — 24/7, gak pernah libur, gak pernah baper</span>
+      </div>
+    </div>
+
+      <!-- OpenAI Dashboard Screenshot -->
+      <div style="max-width:500px;margin:-8px auto 24px;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,0.06);box-shadow:0 4px 15px rgba(0,0,0,0.3)">
+        <img src="https://solusiadmin.com.solusiadmin-core.online/assets/OpenAIBilling.png" alt="OpenAI Billing Dashboard - Bukti Tagihan $2.30" style="width:100%;height:auto;display:block" loading="lazy">
+      </div>
+      <p style="text-align:center;color:#64748B;font-size:11px;margin-top:-18px;margin-bottom:28px">
+        📸 Screenshot dashboard OpenAI — data real, bukan rekayasa
+      </p>
+
+    <!-- VS ADMIN MANUSIA -->
+    <div class="banding-card">
+      <div class="bc-head">
+        <div class="bc-col"></div>
+        <div class="bc-col saas">😈 Admin Manusia</div>
+        <div class="bc-col mina">🕊️ Karyawan AI (Mina)</div>
+      </div>
+      <div class="bc-row">
+        <div class="bc-col">Biaya</div>
+        <div class="bc-col">Rp3.000.000 / bulan</div>
+        <div class="bc-col"><span class="check">✅</span> <strong>Rp36.800 / bulan</strong></div>
+      </div>
+      <div class="bc-row">
+        <div class="bc-col">Jam Kerja</div>
+        <div class="bc-col">8 jam/hari, ada libur</div>
+        <div class="bc-col"><span class="check">✅</span> <strong>24/7 — gak pernah libur</strong></div>
+      </div>
+      <div class="bc-row">
+        <div class="bc-col">Mood</div>
+        <div class="bc-col">Suka baper, capek</div>
+        <div class="bc-col"><span class="check">✅</span> <strong>Zero emosi, zero drama</strong></div>
+      </div>
+      <div class="bc-row">
+        <div class="bc-col">Respon</div>
+        <div class="bc-col">Rata-rata 5-10 menit</div>
+        <div class="bc-col"><span class="check">✅</span> <strong>0 detik (instan)</strong></div>
+      </div>
+      <div class="bc-row bc-highlight">
+        <div class="bc-col">Tahun 1</div>
+        <div class="bc-col"><span class="cross">❌</span> <strong style="color:#FF4757">Rp36 Juta</strong></div>
+        <div class="bc-col"><span class="check">✅</span> <strong style="color:#22C55E">Rp441.600</strong></div>
+      </div>
+      <div class="bc-row">
+        <div class="bc-col">Chat Sepi?</div>
+        <div class="bc-col">Tetap digaji penuh ❌</div>
+        <div class="bc-col"><span class="check">✅</span> <strong>BIAYA NOL</strong></div>
+      </div>
+    </div>
+
+    <!-- HUKUM 80/20 + MAS TRI -->
+    <div class="tri-card">
+      <div class="tri-badge">⚙️ VALIDASI DARI SESAMA DEVELOPER — Mas Tri</div>
+      <div class="tri-quote">
+        <strong>"Banyak vendor jualan chatbot palsu. Saat di-chat, yang balas manusia dengan jeda 7-10 menit. Itu bukan otomasi — itu <strong style="color:#FF4757">kerja bakti.</strong>"</strong>
+      </div>
+      <div class="tri-quote" style="font-size:clamp(0.95rem,2.5vw,1.1rem)">
+        Di Dapur Mina OS, gue rancang sistem dengan pendekatan <strong>Engineer yang jujur:</strong>
+      </div>
+
+      <div class="tri-rule">
+        <div class="r-item kiper">
+          <div class="r-pct cyan">80%</div>
+          <div class="r-lbl">🧤 AI = <strong style="color:#00FFCC">KIPER</strong><br><span style="font-size:10px;color:#64748B">Filter leads, jawab SOP,<br>tembak psikologi jualan</span></div>
+        </div>
+        <div class="r-arrow">⚡</div>
+        <div class="r-item striker">
+          <div class="r-pct gold">20%</div>
+          <div class="r-lbl">⚽ Kamu = <strong style="color:#FFD700">STRIKER</strong><br><span style="font-size:10px;color:#64748B">Negosiasi, validasi,<br>closing leads panas</span></div>
+        </div>
+      </div>
+
+      <div class="tri-img">
+        <img src="https://solusiadmin.com.solusiadmin-core.online/assets/MasTriTesti.jpg" alt="Testimonial Mas Tri - Developer" loading="lazy">
+      </div>
+      <div class="tri-caption">📸 Screenshot diskusi teknis dengan Mas Tri — izin publish</div>
+    </div>
+
+    <div style="text-align:center">
+      <a href="https://solusiadmin-core.online/perbandingan" class="btn-cta">🔥 GANTI ADMIN Rp3jt DENGAN AI Rp36rb</a>
+      <p class="garansi">
+                💰 Rp199rb — Bandingin sama gaji admin Rp3jt/bulan. Hitung sendiri.<br>
+        📊 1,199 chat cuma Rp36.800/bulan — hitung sendiri!
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VIDEO DEMO SECTION ===== -->
+<section class="videodemo">
+  <div class="container">
+    <h2>🎬 <span class="gold">BUKTIKAN SENDIRI</span> KECERDASAN MINA</h2>
+    <p class="sub">
+      Dua video di bawah menunjukkan langsung cara kerja Dapur Mina OS — dari chat otomatis yang <strong>jago jualan</strong> sampai dashboard kontrol premium. Klik thumbnail untuk play.
+    </p>
+    
+    <div class="video-grid">
+      <!-- Video 1: Chat Demo -->
+      <div class="video-card">
+        <div class="phone-mockup">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div id="yt-chat" class="yt-facade" style="background-image:url('https://i.ytimg.com/vi/zLO-JWN3PQc/hqdefault.jpg')" onclick="loadVideo('yt-chat','zLO-JWN3PQc')">
+              <div class="play-overlay"></div>
+              <div class="play-btn"></div>
+            </div>
+          </div>
+        </div>
+        <h3>💬 Robot CS <span style="color:#00FFCC">Jualan Otomatis</span></h3>
+        <p>Chat real dengan Mina — balas pelanggan otomatis, kirim harga, kirim format order. <strong style="color:#F8FAFC">Semua sambil lo tidur.</strong></p>
+      </div>
+      
+      <!-- Video 2: Dashboard Demo -->
+      <div class="video-card">
+        <div class="phone-mockup">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div id="yt-dash" class="yt-facade" style="background-image:url('https://i.ytimg.com/vi/ga7G9vJnH2c/hqdefault.jpg')" onclick="loadVideo('yt-dash','ga7G9vJnH2c')">
+              <div class="play-overlay"></div>
+              <div class="play-btn"></div>
+            </div>
+          </div>
+        </div>
+        <h3>📊 Dashboard <span style="color:#FFD700">Kontrol Premium</span></h3>
+        <p>Panel lengkap — atur respon AI, pantau histori chat, lihat laporan bisnis. <strong style="color:#F8FAFC">Genggaman penuh di tangan lo.</strong></p>
+      </div>
+      
+      <!-- Video 3: AI Lead Sniper -->
+      <div class="video-card" style="border:2px solid #00FFCC;border-radius:16px;padding:12px">
+        <div class="phone-mockup">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div id="yt-sniper" class="yt-facade" style="background-image:url('https://i.ytimg.com/vi/6Kc2LBrX8OY/hqdefault.jpg')" onclick="loadVideo('yt-sniper','6Kc2LBrX8OY')">
+              <div class="play-overlay"></div>
+              <div class="play-btn"></div>
+            </div>
+          </div>
+        </div>
+        <h3>🎯 AI Lead Sniper <span style="color:#00FFCC">Hybrid Follow-up</span></h3>
+        <p>Hybrid Sniper — bukan bot spam. Follow-up cerdas yang tahu kapan nembak, kapan diem. <strong style="color:#F8FAFC">Closing tanpa lo pegang HP.</strong></p>
+      </div>
+    </div>
+    
+    <div style="text-align:center">
+      <a href="https://solusiadmin-core.online/perbandingan" class="btn-cta">🔥 PILIH PAKET & COBA SEKARANG</a>
+      <p class="garansi">
+        💰 Rp199rb — Bandingin sama gaji admin Rp3jt/bulan. Hitung sendiri.<br>
+        👆 Klik thumbnail video di atas — langsung lihat kecerdasan Mina
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BRAIN OF MINA SECTION ===== -->
+<section class="brain">
+  <div class="container">
+    <h2>🧠 <span class="gold">THE BRAIN OF MINA</span></h2>
+    <p class="sub">
+      Ini yang membedakan Dapur Mina dari chatbot auto-reply dan <strong>WA META AI biasa</strong>. Bukan sekadar fitur — ini <strong>ekosistem bisnis berlisensi</strong>.
+    </p>
+
+    <div class="brain-grid">
+      <!-- Card 1: Konsultan AI Architect -->
+      <div class="brain-card">
+        <span class="bc-badge gold">👑 BEDA POSITIONING</span>
+        <span class="bc-icon">🏗️</span>
+        <h3>Bukan Teknisi — Jadi <span class="highlight-gold">KONSULTAN AI ARCHITECT</span></h3>
+        <p>
+          Auto-reply biasa bikin lo jadi <strong>teknisi spam</strong> — ganti keyword, setting trigger, ribet. Dapur Mina mengubah lo jadi <strong>Konsultan AI Architect</strong> dengan value jasa <strong style="color:#FFD700">HIGH TICKET</strong>. Lo bukan orang yang "pasangin robot" — lo <strong style="color:#F8FAFC">arsitek solusi AI</strong> yang ditagih mahal.
+        </p>
+      </div>
+
+      <!-- Card 2: Business in the Box -->
+      <div class="brain-card">
+        <span class="bc-badge red">❌ WA META AI GAGAL</span>
+        <span class="bc-icon">📦</span>
+        <h3><span class="highlight-cyan">Business in the Box</span> — Siap Jual</h3>
+        <p>
+          <strong>WA META AI?</strong> Cuma fitur gratis yang <strong style="color:#FF4757">gak bisa lo jual kembali</strong>. Dapur Mina? Lisensi <strong>Hak Usaha (Commercial Rights)</strong> — lo jual jasa setting ke UMKM, <strong style="color:#22C55E">profit 100% milik lo</strong>. Ini bukan fitur, ini <strong style="color:#F8FAFC">produk bisnis siap jual</strong>.
+        </p>
+      </div>
+
+      <!-- Card 3: The BRAIN is Mahal -->
+      <div class="brain-card">
+        <span class="bc-badge cyan">🧠 ARSITEKTUR PREMIUM</span>
+        <span class="bc-icon">⚡</span>
+        <h3><span class="highlight-cyan">The BRAIN</span> is What's Expensive</h3>
+        <p>
+          Yang mahal dari Dapur Mina <strong>bukan APP kendaraannya</strong> — tapi <strong style="color:#00FFCC">ARSITEKTUR LOGIKA MINA</strong>. Meta Prompt kompleks, pola jualan psikologis, filter leads otomatis. <strong>Ingin ganti kendaraan?</strong> Dari WA ke Telegram, ke website — tinggal ganti platform. <strong style="color:#F8FAFC">The brain stays.</strong>
+        </p>
+      </div>
+
+      <!-- Card 4: Closing 24 Jam -->
+      <div class="brain-card">
+        <span class="bc-badge green">🌙 BUKTI REAL</span>
+        <span class="bc-icon">🌙</span>
+        <h3>Closing <span class="highlight-gold">24 Jam</span> — Bahkan Subuh</h3>
+        <p>
+          Auto-reply mati kalo gak ada yang setting. WA META AI cuma jawab kalo ada histori chat. <strong>Mina jalan terus 24/7</strong>. Bukti? Screenshot di bawah — jam <strong style="color:#FFD700">04:00 WIB (SUBUH)</strong>, Mina closing order sendirian. <strong style="color:#F8FAFC">Owner-nya tidur nyenyak.</strong>
+        </p>
+      </div>
+    </div>
+
+    <!-- Subuh Proof -->
+    <div class="subuh-proof">
+      <div class="sp-head">
+        <span class="sp-icon">🌙</span>
+        <div>
+          <div class="sp-title">SAAT ANDA TIDUR NYENYAK, MINA GERILYA MENCETAK UANG</div>
+          <div class="sp-sub">Screenshot real — bukan mockup, bukan janji</div>
+        </div>
+      </div>
+      <div class="sp-body">
+        <div class="sp-meta">
+          <span class="m">🕒 <strong>WAKTU:</strong> 04:00 WIB (SUBUH)</span>
+          <span class="m">📱 <strong>LOKASI:</strong> Grup WhatsApp Pelanggan</span>
+          <span class="m">🤖 <strong>EKSEKUTOR:</strong> Mina — Auto-pilot penuh</span>
+        </div>
+        <div class="sp-img">
+          <img src="https://solusiadmin-core.online/uploads/kb/kb_699a63165085e.png" alt="Mina closing order jam 4 subuh" loading="lazy">
+        </div>
+        <div class="sp-caption">
+          📸 Screenshot real — Mina menjawab pertanyaan pelanggan, menjelaskan harga, dan <strong>mengirimkan format order</strong>. Semua otomatis. Jam 4 subuh. Owner tidur.
+        </div>
+        <div class="sp-story">
+          <p>
+            💬 <strong>"Ini bedanya Mina dengan auto-reply mana pun."</strong><br><br>
+            Auto-reply cuma bisa jawab kata kunci. Kalo pelanggan nanya <em>"Harganya berapa?"</em> dan auto-reply <strong>gak punya keyword "harga"</strong> — diem aja, pelanggan kabur.<br><br>
+            Mina? Paham konteks. Paham psikologi jualan. Tau kapan harus kirim harga, kapan harus <strong>push closing</strong>, kapan harus <strong>transfer ke owner</strong>. <strong style="color:#00FFCC">Ini AI jualan — bukan auto-reply kacangan.</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center">
+      <a href="https://solusiadmin-core.online/perbandingan" class="btn-cta">🧠 AMBIL OTAK MINA — Rp199rb</a>
+      <p class="garansi">
+        💰 Rp199rb — Termasuk Hak Usaha + Panduan Dashboard. Bandingin sama gaji admin Rp3jt.<br>
+        💼 Siap jual jasa setting langsung malam ini
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRICING + SNEAK PEEK SECTION ===== -->
+<section class="pricing">
+  <div class="container">
+    <h2>💰 <span class="gold">SIAP BANGUN BISNIS AI</span> LO SEKARANG?</h2>
+    <p class="sub">
+      Pilih paket <strong>Dapur Mina Core</strong> — lisensi seumur hidup, langsung dapat <strong style="color:#FFD700">Hak Usaha + Dashboard Premium</strong>. Preview dulu sebelum ambil keputusan.
+    </p>
+
+    <!-- Sneak Peek Gallery -->
+    <div class="peek-grid">
+      <div class="peek-card">
+        <img class="pc-img" src="https://solusiadmin-core.online/uploads/sneakpeak/DashboardMinaTop-Up.webp" alt="Preview Dashboard Dapur Mina OS" loading="lazy" style="aspect-ratio:4/5;object-fit:contain;object-position:center;background:transparent">
+        <div class="pc-label">📊 <span>Dashboard Utama</span> — Kontrol Penuh Bisnis AI</div>
+      </div>
+      <div class="peek-card">
+        <img class="pc-img" src="https://solusiadmin-core.online/uploads/sneakpeak/MenuAlatPerang-Up.webp" alt="Preview Menu Alat Perang Module" loading="lazy" style="aspect-ratio:4/5;object-fit:contain;object-position:center;background:transparent">
+        <div class="pc-label">🧰 <span>Menu Alat Perang</span> — 15+ Module Siap Pakai</div>
+      </div>
+    </div>
+    <div class="peek-link">
+      👉 <a href="https://dev.solusiadmin-core.online/sneakpeek" target="_blank" rel="noopener">Lihat preview 15 module VIP selengkapnya →</a>
+    </div>
+
+    <!-- Pricing Card -->
+    <div class="pricing-card">
+      <div class="pc-badge">🔥 PAKET PALING LARIS — 90.000+ PEBISNIS</div>
+      <div class="pc-body">
+        <div class="pc-name">DAPUR MINA CORE</div>
+        <div class="pc-price">Rp199.000 <span>/ sekali, seumur hidup</span></div>
+        <div class="pc-sub">💰 Bandingin: Gaji admin Rp3jt/bulan vs ini Rp199rb SEUMUR HIDUP</div>
+        
+        <ul class="pc-list">
+          <li><span class="chk">✅</span> <strong>Otak Robot CS AI</strong> (Meta Prompt Premium) <small>Arsitektur logika Mina — bukan auto-reply biasa</small></li>
+          <li><span class="chk">✅</span> <strong>Hak Usaha (Commercial Rights)</strong> <small class="cr">💰 Jual jasa setting ke UMKM — profit 100% lo</small></li>
+          <li><span class="chk">✅</span> <strong>Dashboard Web App Premium</strong> <small>Pantau chat, atur respon, lihat laporan realtime</small></li>
+          <li><span class="chk">✅</span> <strong>Panduan Dashboard Lengkap</strong> <small>Knowledge Base + Masterclass — anti-gaptek</small></li>
+          <li><span class="chk">✅</span> <strong>CRM Tier 1 GRATIS</strong> <small>Manajemen leads + Kanban + AI Lead Sniper</small></li>
+          <li><span class="chk">✅</span> <strong>Update Lifetime</strong> <small>Dapat semua pembaruan fitur tanpa biaya tambahan</small></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 🔥 VALUE STACKING RECAP (MERGED) 🔥 -->
+    <div class="vs-wrap">
+      <div class="vs-title">🔥 REKAP NILAI MANFAAT</div>
+      <div class="vs-list">
+        <div class="vs-item">
+          <span class="vs-icon">🧠</span>
+          <div class="vs-detail">
+            <span class="vs-name">Otak Robot CS AI Premium</span>
+            <span class="vs-val">Rp1.500.000</span>
+          </div>
+        </div>
+        <div class="vs-item">
+          <span class="vs-icon">🧬</span>
+          <div class="vs-detail">
+            <span class="vs-name">100+ AI Brain Repository</span>
+            <span class="vs-val">Rp500.000</span>
+          </div>
+        </div>
+        <div class="vs-item">
+          <span class="vs-icon">💼</span>
+          <div class="vs-detail">
+            <span class="vs-name">Hak Usaha — Jual Jasa ke UMKM</span>
+            <span class="vs-val">Rp1.000.000</span>
+          </div>
+        </div>
+        <div class="vs-item">
+          <span class="vs-icon">📊</span>
+          <div class="vs-detail">
+            <span class="vs-name">Dashboard Premium + CRM T1</span>
+            <span class="vs-val">Rp2.000.000</span>
+          </div>
+        </div>
+        <div class="vs-item">
+          <span class="vs-icon">🎓</span>
+          <div class="vs-detail">
+            <span class="vs-name">Masterclass &amp; Panduan Lengkap</span>
+            <span class="vs-val">Rp500.000</span>
+          </div>
+        </div>
+        <div class="vs-item">
+          <span class="vs-icon">🔄</span>
+          <div class="vs-detail">
+            <span class="vs-name">Update Lifetime</span>
+            <span class="vs-val">Rp500.000</span>
+          </div>
+        </div>
+      </div>
+      <div class="vs-total">
+        <div class="vs-total-line">
+          <span>TOTAL NILAI MANFAAT</span>
+          <span class="vs-cross">Rp6.000.000</span>
+        </div>
+      </div>
+
+      <!-- SINGLE CTA — SATU DOANG! -->
+      <a href="https://solusiadmin-core.online/checkout.php?paket=core" class="vs-cta">🔥 AMBIL SEKARANG — Rp199rb</a>
+    </div>
+
+    <!-- Urgency: Live Viewers -->
+    <div class="urg-live">
+      <span class="urg-dot"></span>
+      <span>Sedang lihat halaman ini <strong id="live-count">42</strong> orang</span>
+    </div>
+
+    <!-- Urgency: Scarcity Bar -->
+    <div class="urg-scarcity">
+      <div class="urg-slot-header">
+        <span>Batch #3 — Slot Lifetime: 250 Lisensi</span>
+        <span class="urg-sisa">Sisa <strong>14</strong> Slot</span>
+      </div>
+      <div class="urg-bar">
+        <div class="urg-fill" style="width:94%"></div>
+      </div>
+      <p class="urg-warning">⚠️ <strong>PERINGATAN:</strong> Setelah kuota Batch #3 habis, harga naik ke <strong>Rp399.000</strong>. Lock harga Rp199rb sekarang.</p>
+    </div>
+
+    <!-- Urgency: Timer Countdown -->
+    <div class="urg-timer">
+      <p class="urg-timer-label">⏳ HARGA INI HANGUS DALAM:</p>
+      <div class="urg-boxes">
+        <div class="urg-box"><div class="urg-num" id="hours_btm">00</div><div class="urg-unit">JAM</div></div>
+        <div class="urg-sep">:</div>
+        <div class="urg-box"><div class="urg-num" id="minutes_btm">59</div><div class="urg-unit">MNT</div></div>
+        <div class="urg-sep">:</div>
+        <div class="urg-box urg-highlight"><div class="urg-num" id="seconds_btm">30</div><div class="urg-unit">DTK</div></div>
+      </div>
+    </div>
+
+    <!-- 100% Secure Badge -->
+    <div class="urg-secure">
+      <img src="assets/secure100.png" alt="100% Secure" width="160" height="52" loading="lazy">
+      <span>Transaksi <strong>100% AMAN</strong> — Server terenkripsi penuh</span>
+    </div>
+
+    <!-- Price Anchor -->
+    <div class="price-anchor">
+      <p>
+        💰 <strong>Rp199rb</strong> — Bandingin sama gaji admin Rp3jt/bulan. Hitung sendiri.<br>
+        📖 Panduan dashboard lengkap — tinggal ikutin langkahnya.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="https://solusiadmin-core.online/terms" target="_blank" rel="noopener">📜 Syarat & Ketentuan</a>
+      <span class="dot">·</span>
+      <a href="https://solusiadmin-core.online/sla" target="_blank" rel="noopener">🛡️ SLA & Dukungan</a>
+      <span class="dot">·</span>
+      <a href="https://solusiadmin-core.online/privacy" target="_blank" rel="noopener">🔒 Kebijakan Privasi</a>
+    </div>
+    <p class="garansi-uptime">🛡️ Garansi Layanan: Dashboard offline > 2×24 jam? Kami prioritas pemulihan penuh.</p>
+    <p class="copyright">© 2026 Solusi Admin. Hak Cipta Dilindungi.</p>
+  </div>
+</footer>
+
+<script>
+function loadVideo(elId, videoId) {
+  var c = document.getElementById(elId);
+  c.innerHTML = '<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/' + videoId + '?autoplay=1&mute=0&controls=1&rel=0" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>';
+  c.onclick = null;
+  c.style.backgroundImage = 'none';
+}
+
+/* Closing Section — Countdown Timer (1 Jam Session) */
+(function(){
+  var key = 'promo_deadline_closing_1h';
+  var dur = 1 * 60 * 60 * 1000;
+  var dl = localStorage.getItem(key);
+  var now = new Date().getTime();
+  if(!dl || now > dl){ dl = now + dur; localStorage.setItem(key, dl); }
+  setInterval(function(){
+    var d = dl - new Date().getTime();
+    if(d < 0){ localStorage.removeItem(key); location.reload(); return; }
+    var h = Math.floor((d % (864e5)) / 36e5);
+    var m = Math.floor((d % 36e5) / 6e4);
+    var s = Math.floor((d % 6e4) / 1000);
+    var eh = document.getElementById('hours_btm');
+    var em = document.getElementById('minutes_btm');
+    var es = document.getElementById('seconds_btm');
+    if(eh) eh.innerHTML = h < 10 ? '0' + h : h;
+    if(em) em.innerHTML = m < 10 ? '0' + m : m;
+    if(es) es.innerHTML = s < 10 ? '0' + s : s;
+  }, 1000);
+})();
+
+/* Closing Section — Live Viewers Randomizer */
+(function(){
+  var el = document.getElementById('live-count');
+  if(!el) return;
+  var v = Math.floor(Math.random() * 34) + 42;
+  el.innerText = v;
+  setInterval(function(){
+    v += Math.floor(Math.random() * 7) - 2;
+    if(v < 24) v = 24 + Math.floor(Math.random() * 5);
+    if(v > 95) v = 85 - Math.floor(Math.random() * 5);
+    el.innerText = v;
+  }, Math.floor(Math.random() * 3001) + 3000);
+})();
+</script>
+
+<!-- Floating WA Tanya CS -->
+<a href="https://wa.me/6281328992000?text=Halo%20Min%2C%20saya%20mau%20tanya%20soal%20Dapur%20Mina%20OS" target="_blank" rel="noopener" class="wa-float" aria-label="Tanya CS via WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span>Tanya CS</span>
+</a>
+
+<style>
+.wa-float{position:fixed;bottom:24px;right:20px;z-index:999;display:flex;align-items:center;gap:8px;background:#25D366;color:#fff;padding:12px 20px;border-radius:60px;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 6px 25px rgba(37,211,102,0.4);transition:all .3s ease;border:2px solid rgba(255,255,255,0.15)}
+.wa-float:hover{transform:scale(1.06);box-shadow:0 10px 35px rgba(37,211,102,0.55)}
+.wa-float svg{flex-shrink:0}
+.wa-float span{white-space:nowrap}
+@media(max-width:480px){.wa-float{padding:14px;border-radius:50%}.wa-float span{display:none}}
+</style>
+</body>
+</html>
