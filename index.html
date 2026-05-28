@@ -402,52 +402,13 @@ section{padding:60px 0}
 @keyframes cta-shine{0%,100%{left:-75%}50%{left:125%}}
 .vs-cta:hover{transform:scale(1.03) translateY(-2px);box-shadow:0 12px 40px rgba(255,215,0,0.35),0 4px 80px rgba(255,215,0,0.12)}
 
-/* Live viewers */
-.urg-live{display:flex;align-items:center;justify-content:center;gap:8px;background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.3);padding:6px 16px;border-radius:50px;margin:0 auto 25px;width:fit-content}
-.urg-live .urg-dot{width:10px;height:10px;background:#ef4444;border-radius:50%;animation:pulse-red-fomo 1.5s infinite;display:inline-block}
-.urg-live span{color:#F8FAFC;font-size:13px;font-weight:600}
-.urg-live strong{color:#ef4444;font-weight:900}
-
-/* Scarcity bar */
-.urg-scarcity{background:rgba(239,68,68,0.05);border:1px dashed #ef4444;border-radius:12px;padding:14px;margin-bottom:18px;text-align:left;max-width:480px;margin-left:auto;margin-right:auto}
-.urg-slot-header{display:flex;justify-content:space-between;font-size:13px;color:#CBD5E1;font-weight:700;margin-bottom:8px}
-.urg-sisa{color:#ef4444;font-weight:900;animation:blink 1.5s infinite}
-.urg-bar{background:#222;height:14px;border-radius:10px;overflow:hidden;margin-bottom:10px;border:1px solid #333}
-.urg-fill{background:repeating-linear-gradient(45deg,#ef4444,#ef4444 10px,#dc2626 10px,#dc2626 20px);height:100%;animation:moveStripes 2s linear infinite;border-radius:10px}
-.urg-warning{font-size:11px;color:#94A3B8;line-height:1.5}
-.urg-warning strong{color:#ef4444}
-
-/* Timer */
-.urg-timer{text-align:center;margin-bottom:18px}
-.urg-timer-label{color:#FFD700;font-size:12px;font-weight:900;margin-bottom:10px;animation:blink 1.5s infinite;letter-spacing:0.5px}
-.urg-boxes{display:flex;justify-content:center;align-items:center;gap:4px}
-.urg-box{background:#222;color:#fff;padding:8px 14px;border-radius:6px;min-width:50px;border:1px solid #444;text-align:center;display:inline-block}
-.urg-box.urg-highlight{background:rgba(231,76,60,0.1);border:1px solid rgba(231,76,60,0.4)}
-.urg-box.urg-highlight .urg-num{color:#e74c3c}
-.urg-num{font-size:clamp(20px,5vw,28px);font-weight:900;line-height:1}
-.urg-unit{font-size:9px;color:#94A3B8;margin-top:3px;font-weight:700}
-.urg-sep{font-size:20px;font-weight:900;color:#666;padding-top:4px}
-
-/* 100% Secure */
-.urg-secure{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:22px;padding:8px 0}
-.urg-secure img{width:auto;height:52px;object-fit:contain}
-.urg-secure span{color:#CBD5E1;font-size:14px;font-weight:700}
-.urg-secure strong{color:#22C55E;font-size:15px}
-
 /* Mobile urgency */
 @media(max-width:480px){
-  .urg-box{min-width:40px;padding:6px 10px}
-  .urg-secure img{height:40px}
-  .urg-secure span{font-size:12px}
-  .urg-secure strong{font-size:13px}
   .vs-cta{font-size:15px;padding:16px 24px}
   .pricing-card .pc-body{padding:24px 18px 20px}
   .vs-wrap{padding:16px 16px 20px}
 }
 
-/* Keyframes reuse */
-@keyframes pulse-red-fomo{0%{box-shadow:0 0 0 0 rgba(239,68,68,.7)}70%{box-shadow:0 0 0 6px rgba(239,68,68,0)}100%{box-shadow:0 0 0 0 rgba(239,68,68,0)}}
-@keyframes moveStripes{0%{background-position:0 0}100%{background-position:40px 0}}
 </style>
 </head>
 <body>
@@ -1244,43 +1205,7 @@ section{padding:60px 0}
       <a href="https://solusiadmin-core.online/checkout.php?paket=core" class="vs-cta">🔥 Saya Ambil — Rp199rb →</a>
     </div>
 
-    <!-- Urgency: Live Viewers -->
-    <div class="urg-live">
-      <span class="urg-dot"></span>
-      <span>Sedang lihat halaman ini <strong id="live-count">42</strong> orang</span>
-    </div>
-
-    <!-- Urgency: Scarcity Bar -->
-    <div class="urg-scarcity">
-      <div class="urg-slot-header">
-        <span>Batch #3 — Slot Lifetime: 250 Lisensi</span>
-        <span class="urg-sisa">Sisa <strong>14</strong> Slot</span>
-      </div>
-      <div class="urg-bar">
-        <div class="urg-fill" style="width:94%"></div>
-      </div>
-      <p class="urg-warning">⚠️ <strong>PERINGATAN:</strong> Setelah kuota Batch #3 habis, harga naik ke <strong>Rp399.000</strong>. Lock harga Rp199rb sekarang.</p>
-    </div>
-
-    <!-- Urgency: Timer Countdown -->
-    <div class="urg-timer">
-      <p class="urg-timer-label">⏳ HARGA INI HANGUS DALAM:</p>
-      <div class="urg-boxes">
-        <div class="urg-box"><div class="urg-num" id="hours_btm">00</div><div class="urg-unit">JAM</div></div>
-        <div class="urg-sep">:</div>
-        <div class="urg-box"><div class="urg-num" id="minutes_btm">59</div><div class="urg-unit">MNT</div></div>
-        <div class="urg-sep">:</div>
-        <div class="urg-box urg-highlight"><div class="urg-num" id="seconds_btm">30</div><div class="urg-unit">DTK</div></div>
-      </div>
-    </div>
-
-    <!-- 100% Secure Badge -->
-    <div class="urg-secure">
-      <img src="assets/secure100.png" alt="100% Secure" width="160" height="52" loading="lazy">
-      <span>Transaksi <strong>100% AMAN</strong> — Server terenkripsi penuh</span>
-    </div>
-
-    <!-- Price Anchor -->
+    <!-- 100% Trust + Price Anchor -->
     <div class="price-anchor">
       <p>
         💰 <strong>Rp199rb</strong> — Bandingin sama gaji admin Rp3jt/bulan. Hitung sendiri.<br>
@@ -1312,42 +1237,6 @@ function loadVideo(elId, videoId) {
   c.onclick = null;
   c.style.backgroundImage = 'none';
 }
-
-/* Closing Section — Countdown Timer (1 Jam Session) */
-(function(){
-  var key = 'promo_deadline_closing_1h';
-  var dur = 1 * 60 * 60 * 1000;
-  var dl = localStorage.getItem(key);
-  var now = new Date().getTime();
-  if(!dl || now > dl){ dl = now + dur; localStorage.setItem(key, dl); }
-  setInterval(function(){
-    var d = dl - new Date().getTime();
-    if(d < 0){ localStorage.removeItem(key); location.reload(); return; }
-    var h = Math.floor((d % (864e5)) / 36e5);
-    var m = Math.floor((d % 36e5) / 6e4);
-    var s = Math.floor((d % 6e4) / 1000);
-    var eh = document.getElementById('hours_btm');
-    var em = document.getElementById('minutes_btm');
-    var es = document.getElementById('seconds_btm');
-    if(eh) eh.innerHTML = h < 10 ? '0' + h : h;
-    if(em) em.innerHTML = m < 10 ? '0' + m : m;
-    if(es) es.innerHTML = s < 10 ? '0' + s : s;
-  }, 1000);
-})();
-
-/* Closing Section — Live Viewers Randomizer */
-(function(){
-  var el = document.getElementById('live-count');
-  if(!el) return;
-  var v = Math.floor(Math.random() * 34) + 42;
-  el.innerText = v;
-  setInterval(function(){
-    v += Math.floor(Math.random() * 7) - 2;
-    if(v < 24) v = 24 + Math.floor(Math.random() * 5);
-    if(v > 95) v = 85 - Math.floor(Math.random() * 5);
-    el.innerText = v;
-  }, Math.floor(Math.random() * 3001) + 3000);
-})();
 </script>
 
 <!-- Floating WA Tanya CS -->
