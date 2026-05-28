@@ -90,6 +90,16 @@ section{padding:60px 0}
 .bridge-section{text-align:center;padding:40px 20px;background:linear-gradient(180deg,#0A0A0A,#111)}
 .bridge-section .bridge-text{font-size:clamp(1.1rem,3.5vw,1.5rem);font-weight:700;color:#FFD700;line-height:1.6;max-width:500px;margin:0 auto;letter-spacing:0.3px}
 
+/* ========== HERO FORK ========== */
+.hero-fork{display:flex;flex-direction:column;align-items:center;gap:10px;margin:18px auto 24px;max-width:400px}
+.hero-fork .fork-btn{display:block;width:100%;padding:14px 20px;border-radius:12px;font-weight:800;font-size:clamp(15px,2.5vw,17px);text-align:center;transition:all .3s;border:none;cursor:pointer;text-decoration:none}
+.hero-fork .fork-btn:hover{transform:scale(1.03) translateY(-2px)}
+.hero-fork .fork-umkm{background:linear-gradient(135deg,#22C55E,#16a34a);color:#fff;box-shadow:0 4px 20px rgba(34,197,94,0.25)}
+.hero-fork .fork-umkm:hover{box-shadow:0 8px 30px rgba(34,197,94,0.4)}
+.hero-fork .fork-jasa{background:linear-gradient(135deg,#f97316,#ea580c);color:#fff;box-shadow:0 4px 20px rgba(249,115,22,0.25)}
+.hero-fork .fork-jasa:hover{box-shadow:0 8px 30px rgba(249,115,22,0.4)}
+.hero-fork .fork-atau{color:#64748B;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:2px;padding:2px 0}
+
 /* ========== NERAKA SECTION (existing) ========== */
 .neraka{background:linear-gradient(145deg,#111111,#0A0A0A);position:relative}
 .neraka::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#FF4757,transparent)}
@@ -406,6 +416,21 @@ section{padding:60px 0}
 @keyframes cta-shine{0%,100%{left:-75%}50%{left:125%}}
 .vs-cta:hover{transform:scale(1.03) translateY(-2px);box-shadow:0 12px 40px rgba(255,215,0,0.35),0 4px 80px rgba(255,215,0,0.12)}
 
+/* Premium Card — gantikan fake urgency */
+.premium-card{max-width:440px;margin:0 auto 24px;padding:24px;background:linear-gradient(165deg,#0E0E0E,#151515);border:1px solid rgba(255,215,0,0.1);border-radius:16px}
+.premium-card .pc-title{text-align:center;font-size:13px;font-weight:700;color:#FFD700;margin-bottom:16px;letter-spacing:1px;text-transform:uppercase}
+.premium-card .pc-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:18px}
+.premium-card .pc-item{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 12px;text-align:center}
+.premium-card .pc-item .pc-icon{font-size:22px;display:block;margin-bottom:4px}
+.premium-card .pc-item .pc-label{font-size:12px;font-weight:700;color:#F8FAFC;line-height:1.3}
+.premium-card .pc-item .pc-sub{font-size:10px;color:#64748B;margin-top:2px}
+.premium-card .pc-fear{background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.15);border-radius:10px;padding:12px 14px;margin-bottom:16px;text-align:center}
+.premium-card .pc-fear .pf-icon{font-size:14px;margin-right:4px}
+.premium-card .pc-fear .pf-text{font-size:12px;color:#94A3B8;line-height:1.5}
+.premium-card .pc-fear .pf-text strong{color:#FF4757}
+.premium-card .pc-anchor{text-align:center;font-size:13px;color:#64748B;line-height:1.6}
+.premium-card .pc-anchor strong{color:#FFD700;font-size:15px}
+
 /* Mobile urgency */
 @media(max-width:480px){
   .vs-cta{font-size:15px;padding:16px 24px}
@@ -436,6 +461,13 @@ section{padding:60px 0}
       Punya HP Android nganggur? Jadikan <strong>"Mesin Jasa" Setup Robot CS AI</strong>.<br>
       Ribuan UMKM kewalahan balas chat — tapi <strong style="color:#FF4757">GAPTEK</strong> cara pasang robot otomatis. Lo masuk sebagai <strong style="color:#00FFCC">SOLUSI</strong>.
     </p>
+
+    <!-- HERO FORK — Audience Navigation -->
+    <div class="hero-fork">
+      <a href="#neraka" class="fork-btn fork-umkm">🌱 PUNYA USAHA — Saya pemilik UMKM</a>
+      <span class="fork-atau">ATAU</span>
+      <a href="#hero" class="fork-btn fork-jasa">⚡ JUAL JASA — Saya lihat peluang bisnis ini</a>
+    </div>
 
     <!-- 3 langkah -->
     <div class="offer-grid">
@@ -1214,6 +1246,40 @@ section{padding:60px 0}
 
       <!-- SINGLE CTA — SATU DOANG! -->
       <a href="https://solusiadmin-core.online/checkout.php?paket=core" class="vs-cta">🔥 Saya Ambil — Rp199rb →</a>
+    </div>
+
+    <!-- 💎 PREMIUM CARD — gantikan fake urgency -->
+    <div class="premium-card">
+      <div class="pc-title">💎 YANG LO DAPATKAN</div>
+      <div class="pc-grid">
+        <div class="pc-item">
+          <span class="pc-icon">🔑</span>
+          <div class="pc-label">Lisensi Seumur Hidup</div>
+          <div class="pc-sub">Bukan sewa bulanan</div>
+        </div>
+        <div class="pc-item">
+          <span class="pc-icon">🔄</span>
+          <div class="pc-label">Update Gratis</div>
+          <div class="pc-sub">Semua fitur baru</div>
+        </div>
+        <div class="pc-item">
+          <span class="pc-icon">📖</span>
+          <div class="pc-label">Panduan Mandiri</div>
+          <div class="pc-sub">Masterclass + KB</div>
+        </div>
+        <div class="pc-item">
+          <span class="pc-icon">👥</span>
+          <div class="pc-label">Komunitas VVIP</div>
+          <div class="pc-sub">Tanya sesama member</div>
+        </div>
+      </div>
+      <div class="pc-fear">
+        <span class="pf-icon">❌</span>
+        <span class="pf-text"><strong>TANPA ROBOT CS:</strong> Sewa admin Rp3jt/bln + token chat Rp1-2jt/bln = boncos tiap bulan</span>
+      </div>
+      <div class="pc-anchor">
+        💰 <strong>Rp199rb</strong> — lebih murah dari gaji admin <strong>seminggu</strong>
+      </div>
     </div>
 
     <!-- 100% Trust + Price Anchor -->
